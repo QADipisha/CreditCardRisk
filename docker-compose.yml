@@ -1,0 +1,11 @@
+services:
+  creditcopilot:
+    build: .
+    ports:
+      - "7860:7860"
+    env_file: .env
+    volumes:
+      - ./index:/app/index:ro
+      - ./data:/app/data
+      - ./logs:/app/logs
+    restart: unless-stopped

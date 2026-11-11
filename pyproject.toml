@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "creditcardrisk-copilot"
+version = "0.2.0"
+description = "Credit card risk decision-support prototype with Planner-Executor-Critic agents and Hybrid RAG"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+include = ["creditcopilot*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
