@@ -27,3 +27,13 @@ __pycache__/
 *.pyc
 index/*.faiss
 index/chunks.json
+
+.env
+*.crt
+*.pem
+__pycache__/
+*.pyc
+index/*.faiss
+index/chunks.json
+
+.github/
