@@ -1,0 +1,1522 @@
+[
+  {
+    "title": "An Investigation of Credit Card Default Prediction in the Imbalanced Datasets",
+    "doi": "https://doi.org/10.1109/access.2020.3033784",
+    "year": 2020,
+    "url": "https://ieeexplore.ieee.org/ielx7/6287639/8948470/09239944.pdf",
+    "license": "cc-by",
+    "query": "credit card default",
+    "file": "data/pdfs/0000_An_Investigation_of_Credit_Card_Default_Prediction_in_the_Imbalan.pdf",
+    "sha256": "4b100de59ca209e9b6a0e89f9c6c62e6e0ba2d590b2f8c5592188d72982fb0a3"
+  },
+  {
+    "title": "Several Possible Causes of Credit Card Default",
+    "doi": "https://doi.org/10.54254/2754-1169/21/20230274",
+    "year": 2023,
+    "url": "https://www.ewadirect.com/proceedings/aemps/article/view/3579/pdf",
+    "license": "cc-by",
+    "query": "credit card default",
+    "file": "data/pdfs/0001_Several_Possible_Causes_of_Credit_Card_Default.pdf",
+    "sha256": "a83044a6675a89f88c50de4bef24996c41ac2fe64929269c54366bf7df4fb8d2"
+  },
+  {
+    "title": "Credit Card Default Prediction with Data Modeling",
+    "doi": "https://doi.org/10.2991/978-94-6463-198-2_155",
+    "year": 2023,
+    "url": "https://www.atlantis-press.com/article/125989797.pdf",
+    "license": "cc-by-nc",
+    "query": "credit card default",
+    "file": "data/pdfs/0003_Credit_Card_Default_Prediction_with_Data_Modeling.pdf",
+    "sha256": "62b542b53abde0f8f4a5dc2ce3baa8b3c8d7397940539038bb30eca949f7db5e"
+  },
+  {
+    "title": "Comparison of Different Ensemble Methods in Credit Card Default Prediction",
+    "doi": "https://doi.org/10.21928/uhdjst.v5n2y2021.pp20-25",
+    "year": 2021,
+    "url": "https://journals.uhd.edu.iq/index.php/uhdjst/article/download/806/640",
+    "license": "cc-by-nc-nd",
+    "query": "credit card default",
+    "file": "data/pdfs/0004_Comparison_of_Different_Ensemble_Methods_in_Credit_Card_Default_P.pdf",
+    "sha256": "e5f8af6c3549b975ecb80a623fa3fa5ea784d2d4ece1d2564413aa79dab895b9"
+  },
+  {
+    "title": "Credit Card Default Prediction based on Machine Learning Techniques",
+    "doi": "https://doi.org/10.54691/bcpbm.v44i.4954",
+    "year": 2023,
+    "url": "https://bcpublication.org/index.php/BM/article/download/4954/4814",
+    "license": "cc-by",
+    "query": "credit card default",
+    "file": "data/pdfs/0006_Credit_Card_Default_Prediction_based_on_Machine_Learning_Techniqu.pdf",
+    "sha256": "e66e73ed0c7c8bd262074814fc5ae68eee085d1ebb445ab225a5dfb96f2e0608"
+  },
+  {
+    "title": "Exploring Resampling Techniques in Credit Card Default Prediction",
+    "doi": "https://doi.org/10.21203/rs.3.rs-4087259/v1",
+    "year": 2024,
+    "url": "https://www.researchsquare.com/article/rs-4087259/latest.pdf",
+    "license": "cc-by",
+    "query": "credit card default",
+    "file": "data/pdfs/0008_Exploring_Resampling_Techniques_in_Credit_Card_Default_Prediction.pdf",
+    "sha256": "dc41b32ff1c2490644db7b2b62d1ae32bf1e1e03e72e934fc133e531157a59ae"
+  },
+  {
+    "title": "Artificial neural network technique for improving prediction of credit card default: A stacked sparse autoencoder approach",
+    "doi": "https://doi.org/10.11591/ijece.v11i5.pp4392-4402",
+    "year": 2021,
+    "url": "http://ijece.iaescore.com/index.php/IJECE/article/download/23577/15133",
+    "license": "cc-by-sa",
+    "query": "credit card default",
+    "file": "data/pdfs/0009_Artificial_neural_network_technique_for_improving_prediction_of_c.pdf",
+    "sha256": "7df379f8dbd36af0d9c0cdb639451afb8a761fc79cfdc762bb53d938c1eb0267"
+  },
+  {
+    "title": "A Credit Card Default Prediction Method Based on CatBoost",
+    "doi": "https://doi.org/10.2991/978-94-6463-222-4_17",
+    "year": 2023,
+    "url": "https://www.atlantis-press.com/article/125990092.pdf",
+    "license": "cc-by-nc",
+    "query": "credit card default",
+    "file": "data/pdfs/0010_A_Credit_Card_Default_Prediction_Method_Based_on_CatBoost.pdf",
+    "sha256": "0d6a4a2b583727ddffdb721bde553849f918a39e4de085b3dc108f6ab20f377a"
+  },
+  {
+    "title": "Interpretable Machine Learning Comparison for Credit Card Default Prediction",
+    "doi": "https://doi.org/10.2991/978-2-38476-585-0_31",
+    "year": 2026,
+    "url": "https://www.atlantis-press.com/article/126025228.pdf",
+    "license": "cc-by-nc",
+    "query": "credit card default",
+    "file": "data/pdfs/0011_Interpretable_Machine_Learning_Comparison_for_Credit_Card_Default.pdf",
+    "sha256": "fbc981e36d09b8af48d23ad5e2f1b49b9d2f2769f58bfee2402ccb167f264481"
+  },
+  {
+    "title": "Generalized Linear Model for Predicting the Credit Card Default Payment Risk",
+    "doi": "https://doi.org/10.25046/aj070306",
+    "year": 2022,
+    "url": "https://www.astesj.com/?sdm_process_download=1&download_id=64987",
+    "license": "cc-by-sa",
+    "query": "credit card default",
+    "file": "data/pdfs/0013_Generalized_Linear_Model_for_Predicting_the_Credit_Card_Default_P.pdf",
+    "sha256": "ec9ddbeb976b05c79333304330bf6c730467fcec96eb5100c497a46d2428c570"
+  },
+  {
+    "title": "Comparison of Several Data Mining Methods in Credit Card Default Prediction",
+    "doi": "https://doi.org/10.4236/iim.2018.105010",
+    "year": 2018,
+    "url": "http://www.scirp.org/journal/PaperDownload.aspx?paperID=87507",
+    "license": "cc-by",
+    "query": "credit card default",
+    "file": "data/pdfs/0014_Comparison_of_Several_Data_Mining_Methods_in_Credit_Card_Default_.pdf",
+    "sha256": "af8d07e3c3bcfc29c0171229f88a5952d3d682035185908314cb8c33e38c4ab0"
+  },
+  {
+    "title": "Customer Segmentation of Credit Card Default by Self Organizing Map",
+    "doi": "https://doi.org/10.4236/ajcm.2018.83015",
+    "year": 2018,
+    "url": "https://content.scirp.org/pdf/ajcm_2018083114430197.pdf",
+    "license": "cc-by",
+    "query": "credit card default",
+    "file": "data/pdfs/0016_Customer_Segmentation_of_Credit_Card_Default_by_Self_Organizing_M.pdf",
+    "sha256": "23be36c2d5b4cd6ad4bfb3fad87f10acd9da46cc3e757b75d09828ad5260037a"
+  },
+  {
+    "title": "Credit Card Default Prediction Based on Machine Learning",
+    "doi": "https://doi.org/10.2991/978-2-38476-585-0_37",
+    "year": 2026,
+    "url": "https://www.atlantis-press.com/article/126025153.pdf",
+    "license": "cc-by-nc",
+    "query": "credit card default",
+    "file": "data/pdfs/0018_Credit_Card_Default_Prediction_Based_on_Machine_Learning.pdf",
+    "sha256": "d4fef77ec47b5741e268c18e23f1dcb8d3c4f6783c87668460651c0f01f1a72e"
+  },
+  {
+    "title": "Comparative Analysis of Machine Learning Models for Predicting Credit Card Default",
+    "doi": "https://doi.org/10.2991/978-94-6463-823-3_26",
+    "year": 2025,
+    "url": "https://www.atlantis-press.com/article/126015275.pdf",
+    "license": "cc-by-nc",
+    "query": "credit card default",
+    "file": "data/pdfs/0019_Comparative_Analysis_of_Machine_Learning_Models_for_Predicting_Cr.pdf",
+    "sha256": "5f75567997f4becf9a0cd7e2e2e21a96df75986eafa90e39f30855d49df48321"
+  },
+  {
+    "title": "Credit Card Default Prediction Analysis: Based on Default Data of Taiwanese Customers from April to September 2005",
+    "doi": "https://doi.org/10.54254/2754-1169/23/20230393",
+    "year": 2023,
+    "url": "https://www.ewadirect.com/proceedings/aemps/article/view/3679/pdf",
+    "license": "cc-by",
+    "query": "credit card default",
+    "file": "data/pdfs/0020_Credit_Card_Default_Prediction_Analysis_Based_on_Default_Data_of.pdf",
+    "sha256": "89d94088dbc8c05ad21900a4f843eac9fd638cd7ea3c7349b625adf24994dbe0"
+  },
+  {
+    "title": "Forecasting of Credit Card Default Based on Incremental Random Forest",
+    "doi": "https://doi.org/10.1088/1742-6596/1828/1/012122",
+    "year": 2021,
+    "url": "https://iopscience.iop.org/article/10.1088/1742-6596/1828/1/012122/pdf",
+    "license": "cc-by",
+    "query": "credit card default",
+    "file": "data/pdfs/0021_Forecasting_of_Credit_Card_Default_Based_on_Incremental_Random_Fo.pdf",
+    "sha256": "5865ea78ace63b97d0a926374036f357d0871e9c991e9ef2ce2afc01926139a1"
+  },
+  {
+    "title": "Research on Credit Card Default Prediction Based on Random Forest and Logistic Regression Models",
+    "doi": "https://doi.org/10.54254/2754-1169/2025.lh23945",
+    "year": 2025,
+    "url": "https://www.ewadirect.com/proceedings/aemps/article/view/23945/pdf",
+    "license": "cc-by",
+    "query": "credit card default",
+    "file": "data/pdfs/0023_Research_on_Credit_Card_Default_Prediction_Based_on_Random_Forest.pdf",
+    "sha256": "25b210849183d3bff6f59b1b0fe24998a9d20efcca0ea6d90c7c6856cafe56ea"
+  },
+  {
+    "title": "Credit Card Default Prediction: a Systematic Machine Learning Pipeline and Model Comparison",
+    "doi": "https://doi.org/10.61173/7nfj4473",
+    "year": 2026,
+    "url": "https://fe.deanfrancis.press/article/download/73/73",
+    "license": "cc-by",
+    "query": "credit card default",
+    "file": "data/pdfs/0026_Credit_Card_Default_Prediction_a_Systematic_Machine_Learning_Pip.pdf",
+    "sha256": "42b97b49675902cbfe5bd458925791d9d521423917ac3546c9795440e8a994bf"
+  },
+  {
+    "title": "Credit Card Default Risk Tiering with Probability Calibration and Uncertainty-Driven Rejection: A Reproducible Study on the UCI Credit Card Clients Dataset",
+    "doi": "https://doi.org/10.69987/jacs.2023.30403",
+    "year": 2023,
+    "url": "https://scipublication.com/index.php/JACS/article/download/333/302",
+    "license": "cc-by",
+    "query": "credit card default",
+    "file": "data/pdfs/0027_Credit_Card_Default_Risk_Tiering_with_Probability_Calibration_and.pdf",
+    "sha256": "93d05263804e7cd7444a1e2ab86584f58b3eede55e4e225373dab91ea6f9b5ac"
+  },
+  {
+    "title": "Domain-Driven Feature Engineering and Multi-Machine Learning Models for Credit Card Default Prediction",
+    "doi": "https://doi.org/10.54254/2754-1169/2026.ld37043",
+    "year": 2026,
+    "url": "https://aemps.ewapub.com/article/view/37043.pdf",
+    "license": "cc-by",
+    "query": "credit card default",
+    "file": "data/pdfs/0030_Domain-Driven_Feature_Engineering_and_Multi-Machine_Learning_Mode.pdf",
+    "sha256": "d4dfa7807466015e16a4c7bc7f6bff0206c40660c57a4e9489217654258d1786"
+  },
+  {
+    "title": "Optimization of XGBoost hyperparameters using grid search and random search for credit card default prediction",
+    "doi": "https://doi.org/10.35335/mandiri.v14i2.468",
+    "year": 2025,
+    "url": "https://ejournal.isha.or.id/index.php/Mandiri/article/download/468/468",
+    "license": "cc-by-nc",
+    "query": "credit card default",
+    "file": "data/pdfs/0031_Optimization_of_XGBoost_hyperparameters_using_grid_search_and_ran.pdf",
+    "sha256": "de0823b0a40212d27412a58f2c2a8ec3170f1d42cd6ed30951463c0b090e156b"
+  },
+  {
+    "title": "A Model-Risk-Friendly Probability of Default Workflow: Calibration, Distribution-Free Uncertainty Quantification, and SHAP Explanations on the UCI Credit Card Default Dataset",
+    "doi": "https://doi.org/10.69987/jacs.2024.40606",
+    "year": 2024,
+    "url": "https://scipublication.com/index.php/JACS/article/download/369/336",
+    "license": "cc-by",
+    "query": "credit card default",
+    "file": "data/pdfs/0033_A_Model-Risk-Friendly_Probability_of_Default_Workflow_Calibratio.pdf",
+    "sha256": "ff6e672790050f36ece9f0993a49900d928dc461e464d31a0348a1a0a1ac2d37"
+  },
+  {
+    "title": "Enhanced Credit Card Default Prediction Using a Multilayer Perceptron With Z-Score\u2013Based Outlier Handling on The UCI Dataset",
+    "doi": "https://doi.org/10.83080/rejost.vol5no8.230",
+    "year": 2025,
+    "url": "https://rejost.com.ng/index.php/home/article/download/230/148",
+    "license": "cc-by-nc-nd",
+    "query": "credit card default",
+    "file": "data/pdfs/0037_Enhanced_Credit_Card_Default_Prediction_Using_a_Multilayer_Percep.pdf",
+    "sha256": "4bd8da56675e8946fecf945701e76185e19e3b8efd39efa99ad35c5c5b4374c6"
+  },
+  {
+    "title": "Explanation of Prediction of Machine Learning Models Using Local Interpretable Model-Agnostics Explanation and SHapley Additive exPlanations With Case Study of Credit Card Defaulters",
+    "doi": "https://doi.org/10.7759/s44389-025-05988-x",
+    "year": 2025,
+    "url": "https://assets.cureusjournals.com/artifacts/upload/original_article/pdf/5988/20250901-38698-6gajw6.pdf",
+    "license": "cc-by",
+    "query": "credit card default",
+    "file": "data/pdfs/0040_Explanation_of_Prediction_of_Machine_Learning_Models_Using_Local_.pdf",
+    "sha256": "025431523c3e5aa124357bc1f43819937778977248ce320d1f3a58093172f6c9"
+  },
+  {
+    "title": "Prediction of Default Probability of Credit-Card Bills",
+    "doi": "https://doi.org/10.4236/ojbm.2020.81014",
+    "year": 2019,
+    "url": "http://www.scirp.org/journal/PaperDownload.aspx?paperID=97459",
+    "license": "cc-by",
+    "query": "credit card default",
+    "file": "data/pdfs/0043_Prediction_of_Default_Probability_of_Credit-Card_Bills.pdf",
+    "sha256": "3ccdf435ea737623ef458bd8e8fa839268ce4c40f990ffb0c6877629793d9fb3"
+  },
+  {
+    "title": "Developing a model to predict defaulting credit card clients using business intelligence techniques",
+    "doi": "https://doi.org/10.33422/icmbf.v1i1.897",
+    "year": 2025,
+    "url": "https://www.dpublication.com/conference-proceedings/index.php/ICMBF/article/download/897/727",
+    "license": "cc-by",
+    "query": "credit card default",
+    "file": "data/pdfs/0045_Developing_a_model_to_predict_defaulting_credit_card_clients_usin.pdf",
+    "sha256": "284a562959769e0dddf8811f5ec4668ac04f8c5857ff34b5f8f67c865a5c071f"
+  },
+  {
+    "title": "A Comparative Analysis of Machine Learning Models for Credit Default Prediction of Credit Card Customers of Taiwan Banks",
+    "doi": "https://doi.org/10.2991/978-94-6463-823-3_20",
+    "year": 2025,
+    "url": "https://www.atlantis-press.com/article/126015323.pdf",
+    "license": "cc-by-nc",
+    "query": "credit card default",
+    "file": "data/pdfs/0046_A_Comparative_Analysis_of_Machine_Learning_Models_for_Credit_Defa.pdf",
+    "sha256": "3241b7ab7c27ec34635b7e243f8ba782d8f8c6bbdf151d28fbbbd6b02f573d5f"
+  },
+  {
+    "title": "Compulsive buying and credit card misuse among credit card holders: The roles of self-esteem, materialism, impulsive buying and budget constraint",
+    "doi": "https://doi.org/10.3926/ic.446",
+    "year": 2014,
+    "url": "https://www.intangiblecapital.org/index.php/ic/article/download/446/409",
+    "license": "cc-by-nc",
+    "query": "credit card acquisition",
+    "file": "data/pdfs/0051_Compulsive_buying_and_credit_card_misuse_among_credit_card_holder.pdf",
+    "sha256": "143e75613d0c2291c1ff99b3e995501dd4a029e8966d3f475c8f7a4d53a63d59"
+  },
+  {
+    "title": "Consumers' perceptions of intention to use a credit card: perceived risk and security",
+    "doi": "https://doi.org/10.9770/jesi.2021.9.2(2)",
+    "year": 2021,
+    "url": "https://jssidoi.org/jesi/article/download/898",
+    "license": "cc-by",
+    "query": "credit card acquisition",
+    "file": "data/pdfs/0053_Consumers_perceptions_of_intention_to_use_a_credit_card_perceiv.pdf",
+    "sha256": "3fedd53c2b6e56a91320009cf85dcbd8df442d5d9994b53b57cc4205e65cd27e"
+  },
+  {
+    "title": "The Secured Credit Card Market",
+    "doi": "https://doi.org/10.21799/frbp.dp.2016.nov",
+    "year": 2016,
+    "url": "https://doi.org/10.21799/frbp.dp.2016.nov",
+    "license": "cc-by",
+    "query": "credit card acquisition",
+    "file": "data/pdfs/0054_The_Secured_Credit_Card_Market.pdf",
+    "sha256": "ffad9ee9a0b06bff9e6cd4da59f6dd9a71ca8de10977f1c66c8af1bd6975e737"
+  },
+  {
+    "title": "Assessment of Features and Market Segmentation of the Credit Card Industry in Malaysia",
+    "doi": "https://doi.org/10.2991/aebmr.k.211225.010",
+    "year": 2022,
+    "url": "https://www.atlantis-press.com/article/125968370.pdf",
+    "license": "cc-by-nc",
+    "query": "credit card acquisition",
+    "file": "data/pdfs/0057_Assessment_of_Features_and_Market_Segmentation_of_the_Credit_Card.pdf",
+    "sha256": "4d878052e6fb50bfd1216f9ba9867147b16684b3f4ca8b26fc664f1ac3e9abab"
+  },
+  {
+    "title": "DeLClustE: Protecting Users from Credit-Card Fraud Transaction via the Deep-Learning Cluster Ensemble",
+    "doi": "https://doi.org/10.14569/ijacsa.2023.0140610",
+    "year": 2023,
+    "url": "http://thesai.org/Downloads/Volume14No6/Paper_10-DeLClustE_Protecting_Users_from_Credit_Card_Fraud_Transaction.pdf",
+    "license": "cc-by",
+    "query": "credit card acquisition",
+    "file": "data/pdfs/0058_DeLClustE_Protecting_Users_from_Credit-Card_Fraud_Transaction_vi.pdf",
+    "sha256": "95ae48ef1379ce796785d154e2a3bb045b16ccb1f66891fca2149244caa8ee84"
+  },
+  {
+    "title": "Assessment of Features and Market Segmentation of the Credit Card Industry in Malaysia",
+    "doi": "https://doi.org/10.31219/osf.io/j84f5",
+    "year": 2023,
+    "url": "https://osf.io/j84f5/download",
+    "license": "cc-by",
+    "query": "credit card acquisition",
+    "file": "data/pdfs/0059_Assessment_of_Features_and_Market_Segmentation_of_the_Credit_Card.pdf",
+    "sha256": "576c3a34ec306d89b1625bbeb87a031209d741a61a69cab7544b6cc0cf6ddc65"
+  },
+  {
+    "title": "Credit Card Fraud Detection",
+    "doi": "https://doi.org/10.36948/ijfmr.2024.v06i02.16655",
+    "year": 2024,
+    "url": "https://www.ijfmr.com/papers/2024/2/16655.pdf",
+    "license": "cc-by-sa",
+    "query": "credit card acquisition",
+    "file": "data/pdfs/0062_Credit_Card_Fraud_Detection.pdf",
+    "sha256": "8c11945e1f3b69ba92afda27a43b07e23970482a7e15a55d1c9eb85b5861b81e"
+  },
+  {
+    "title": "A novel method for detecting credit card fraud problems",
+    "doi": "https://doi.org/10.1371/journal.pone.0294537",
+    "year": 2024,
+    "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0294537&type=printable",
+    "license": "cc-by",
+    "query": "credit card acquisition",
+    "file": "data/pdfs/0063_A_novel_method_for_detecting_credit_card_fraud_problems.pdf",
+    "sha256": "b8a8068776a53453d123e2fbdfec4c66c894426e9a684e924828d775028da021"
+  },
+  {
+    "title": "An intelligent credit card fraud detection model using data mining and ensemble learning",
+    "doi": "https://doi.org/10.55214/25768484.v9i2.4651",
+    "year": 2025,
+    "url": "https://learning-gate.com/index.php/2576-8484/article/download/4651/1808",
+    "license": "cc-by",
+    "query": "credit card acquisition",
+    "file": "data/pdfs/0064_An_intelligent_credit_card_fraud_detection_model_using_data_minin.pdf",
+    "sha256": "ad0441a19631e211d78c7ba00f6ec7ae17afc78f8fa65a6e5fd6dcf557cb63c0"
+  },
+  {
+    "title": "THE EFFECT OF CREDIT CARD USAGE ON COMPULSIVE BUYING",
+    "doi": "https://doi.org/10.5824/1309-1581.2015.3.002.x",
+    "year": 2015,
+    "url": "https://dergipark.org.tr/tr/download/article-file/1114195",
+    "license": "cc-by-sa",
+    "query": "credit card acquisition",
+    "file": "data/pdfs/0068_THE_EFFECT_OF_CREDIT_CARD_USAGE_ON_COMPULSIVE_BUYING.pdf",
+    "sha256": "f0bf5541ec3eddd6b9e0e986513847f4cbaaba20a534b0c5ea5434bdf576a35c"
+  },
+  {
+    "title": "REPOSITIONING THE INDONESIAN CREDIT CARD INDUSTRY IN THE ERA OF DIGITAL FINANCIAL SERVICES: A SCENARIO PLANNING APPROACH",
+    "doi": "https://doi.org/10.5281/zenodo.19436181",
+    "year": 2026,
+    "url": "https://radjapublika.com/index.php/MORFAI/article/download/4995/3868",
+    "license": "cc-by",
+    "query": "credit card acquisition",
+    "file": "data/pdfs/0071_REPOSITIONING_THE_INDONESIAN_CREDIT_CARD_INDUSTRY_IN_THE_ERA_OF_D.pdf",
+    "sha256": "471125524f44569167192a0df2f4a626b03ad5cc3e90438725caac342f39a200"
+  },
+  {
+    "title": "Cultural Dimensions and Its Influence on Employee Engagement Multinational Organizations (Credit Card Industry)",
+    "doi": "https://doi.org/10.36948/ijfmr.2025.v07i01.35876",
+    "year": 2025,
+    "url": "https://www.ijfmr.com/papers/2025/1/35876.pdf",
+    "license": "cc-by-sa",
+    "query": "credit card acquisition",
+    "file": "data/pdfs/0073_Cultural_Dimensions_and_Its_Influence_on_Employee_Engagement_Mult.pdf",
+    "sha256": "8809598a29dbb235c8e8ea899fc5bfdadaa2281ec10d35352e8ee471e25ce6bf"
+  },
+  {
+    "title": "Credit Card Fraud Detection Using Improved Deep Learning Models",
+    "doi": "https://doi.org/10.32604/cmc.2023.046051",
+    "year": 2024,
+    "url": "https://file.techscience.com/files/cmc/2024/TSP_CMC-78-1/TSP_CMC_46051/TSP_CMC_46051.pdf",
+    "license": "cc-by",
+    "query": "credit card acquisition",
+    "file": "data/pdfs/0075_Credit_Card_Fraud_Detection_Using_Improved_Deep_Learning_Models.pdf",
+    "sha256": "56d61b59238abac933820dbc744f906fb12a30f45947e2e9b8fce41dbf3fcfb6"
+  },
+  {
+    "title": "Submission on improving acquisition of risk prevention and limit the bad debts of credit cards",
+    "doi": "https://doi.org/10.32508/stdjelm.v2i3.516",
+    "year": 2019,
+    "url": "http://stdjelm.scienceandtechnology.com.vn/index.php/stdjelm/article/download/516/898",
+    "license": "cc-by",
+    "query": "credit card acquisition",
+    "file": "data/pdfs/0077_Submission_on_improving_acquisition_of_risk_prevention_and_limit_.pdf",
+    "sha256": "22d8df931ac79d997190f08cc0b532caad3d2dc51c64dc1add8b30597f840a22"
+  },
+  {
+    "title": "Credit Card Fraud Detection System Using Gradient Boosting with Deep Feature Engineering and Ensemble Stacking",
+    "doi": "https://doi.org/10.32628/ijsrst2613311",
+    "year": 2026,
+    "url": "https://ijsrst.com/index.php/home/article/download/IJSRST2613311/IJSRST2613311",
+    "license": "cc-by",
+    "query": "credit card acquisition",
+    "file": "data/pdfs/0079_Credit_Card_Fraud_Detection_System_Using_Gradient_Boosting_with_D.pdf",
+    "sha256": "41db154f30e53aea085e4db5aec3703bf9ac8e06751980516f2cdf329e4a16d4"
+  },
+  {
+    "title": "Assessment of Credit Card Market Features in Malaysia: Risk of Achieving Women\u2019s Financial Empowerment",
+    "doi": "https://doi.org/10.31219/osf.io/jcua6",
+    "year": 2022,
+    "url": "https://osf.io/jcua6/download",
+    "license": "cc-by",
+    "query": "credit card acquisition",
+    "file": "data/pdfs/0080_Assessment_of_Credit_Card_Market_Features_in_Malaysia_Risk_of_Ac.pdf",
+    "sha256": "6a6b5bac1faf5646a136d29b22d2dcc004c9dbc5384d83ac823670ca9f382b5e"
+  },
+  {
+    "title": "CardSheild: A Credit Card Fraud Detection System",
+    "doi": "https://doi.org/10.71097/ijsat.v16.i2.3921",
+    "year": 2025,
+    "url": "https://www.ijsat.org/papers/2025/2/3921.pdf",
+    "license": "cc-by-sa",
+    "query": "credit card acquisition",
+    "file": "data/pdfs/0081_CardSheild_A_Credit_Card_Fraud_Detection_System.pdf",
+    "sha256": "b5e769cca43664eb16d92b756cef21ebc48ca23d5715ef67f6d67ed037013aa8"
+  },
+  {
+    "title": "Credit Card Fraud Detection Using Hidden Markov Model",
+    "doi": "https://doi.org/10.18535/ijecs/v8i11.4386",
+    "year": 2019,
+    "url": "http://ijecs.in/index.php/ijecs/article/download/4386/3930",
+    "license": "cc-by-nc-sa",
+    "query": "credit card acquisition",
+    "file": "data/pdfs/0082_Credit_Card_Fraud_Detection_Using_Hidden_Markov_Model.pdf",
+    "sha256": "61b513f51547126c94f2259832554cbe7b10c99b285aceae56ddb6320ea7260d"
+  },
+  {
+    "title": "Credit Card Fraud Detection Using Machine Learning Approach",
+    "doi": "https://doi.org/10.15408/aism.v4i2.20570",
+    "year": 2021,
+    "url": "https://journal.uinjkt.ac.id/index.php/aism/article/download/20570/pdf",
+    "license": "cc-by-sa",
+    "query": "credit card acquisition",
+    "file": "data/pdfs/0084_Credit_Card_Fraud_Detection_Using_Machine_Learning_Approach.pdf",
+    "sha256": "42df0563ff97ca15f79aa8143c522de09dc6b10e33730d5f3946096b5ce6c8dd"
+  },
+  {
+    "title": "Ai Based Real-time Fraud Detection System for Credit Card Transaction Anomaly Identification",
+    "doi": "https://doi.org/10.71097/ijsat.v16.i3.7443",
+    "year": 2025,
+    "url": "https://www.ijsat.org/papers/2025/3/7443.pdf",
+    "license": "cc-by-sa",
+    "query": "credit card acquisition",
+    "file": "data/pdfs/0086_Ai_Based_Real-time_Fraud_Detection_System_for_Credit_Card_Transac.pdf",
+    "sha256": "42828d99946c017372557368f3a2777645e3fe0046340100dc67b2a81ae3a254"
+  },
+  {
+    "title": "Customer Segmentation for Credit Card Customers : A Comprehensive Guide",
+    "doi": "https://doi.org/10.32628/cseit241051015",
+    "year": 2024,
+    "url": "https://ijsrcseit.com/index.php/home/article/download/CSEIT241051015/CSEIT241051015",
+    "license": "cc-by",
+    "query": "credit card acquisition",
+    "file": "data/pdfs/0088_Customer_Segmentation_for_Credit_Card_Customers_A_Comprehensive.pdf",
+    "sha256": "f1c213d72beab2f5fca0fe8de17e78355de51d6aee4b32d6169db88f207cdf40"
+  },
+  {
+    "title": "A Quantitative Theory of the Credit Score",
+    "doi": "https://doi.org/10.3982/ecta18771",
+    "year": 2023,
+    "url": "https://www.econometricsociety.org/publications/econometrica/2023/09/01/A-Quantitative-Theory-of-the-Credit-Score/supp/ecta200576-sup-0001-onlineappendix.pdf",
+    "license": "cc-by-nc",
+    "query": "credit scoring",
+    "file": "data/pdfs/0094_A_Quantitative_Theory_of_the_Credit_Score.pdf",
+    "sha256": "59c04945feb14b4d2d4f3bf5e5b9af908876b048fe4da02a58452267425d1e14"
+  },
+  {
+    "title": "Making Deep Learning-Based Predictions for Credit Scoring Explainable",
+    "doi": "https://doi.org/10.1109/access.2021.3068854",
+    "year": 2021,
+    "url": "https://ieeexplore.ieee.org/ielx7/6287639/9312710/09386102.pdf",
+    "license": "cc-by",
+    "query": "credit scoring",
+    "file": "data/pdfs/0099_Making_Deep_Learning-Based_Predictions_for_Credit_Scoring_Explain.pdf",
+    "sha256": "0f9a04b2a57c68e448ebfba807ee08289ffa9e7ca982ad8b73443b226840a942"
+  },
+  {
+    "title": "AI in credit scoring: A comprehensive review of models and predictive analytics",
+    "doi": "https://doi.org/10.30574/gjeta.2024.18.2.0029",
+    "year": 2024,
+    "url": "https://gjeta.com/sites/default/files/GJETA-2024-0029.pdf",
+    "license": "cc-by",
+    "query": "credit scoring",
+    "file": "data/pdfs/0100_AI_in_credit_scoring_A_comprehensive_review_of_models_and_predic.pdf",
+    "sha256": "723c6f0591f2d9d597a86ce1c1a00aa2047cc47b6dee71f9b1396c31cbc60512"
+  },
+  {
+    "title": "Quantum Machine Learning for Credit Scoring",
+    "doi": "https://doi.org/10.3390/math12091391",
+    "year": 2024,
+    "url": "https://arxiv.org/pdf/2308.03575",
+    "license": "cc-by",
+    "query": "credit scoring",
+    "file": "data/pdfs/0101_Quantum_Machine_Learning_for_Credit_Scoring.pdf",
+    "sha256": "3376922201168058d67eee57fb3a3fa2b24cad08e6122b1858dbf871f21cc0da"
+  },
+  {
+    "title": "FROM CREDIT SCORING TO REGULATORY SCORING: COMPARING CREDIT SCORING MODELS FROM A REGULATORY PERSPECTIVE",
+    "doi": "https://doi.org/10.3846/tede.2022.17045",
+    "year": 2022,
+    "url": "https://journals.vilniustech.lt/index.php/TEDE/article/download/17045/11468",
+    "license": "cc-by",
+    "query": "credit scoring",
+    "file": "data/pdfs/0103_FROM_CREDIT_SCORING_TO_REGULATORY_SCORING_COMPARING_CREDIT_SCORI.pdf",
+    "sha256": "63fd6f25a9f6b434cfb0f1f61392177fe1daf4ea43634c0c3f906980b3ebed23"
+  },
+  {
+    "title": "The Fairness of Credit Scoring Models",
+    "doi": "https://doi.org/10.1287/mnsc.2022.03888",
+    "year": 2021,
+    "url": "https://arxiv.org/pdf/2205.10200",
+    "license": "cc-by",
+    "query": "credit scoring",
+    "file": "data/pdfs/0104_The_Fairness_of_Credit_Scoring_Models.pdf",
+    "sha256": "3ebc7a6a3d5f36ce81e711b63519f5411b2c60de7a28800d26f8a0826e59374b"
+  },
+  {
+    "title": "A COMPARISON OF DATA MINING TECHNIQUES FOR CREDIT SCORING IN BANKING: A MANAGERIAL PERSPECTIVE",
+    "doi": "https://doi.org/10.3846/1611-1699.2009.10.233-240",
+    "year": 2009,
+    "url": "https://journals.vilniustech.lt/index.php/JBEM/article/download/6235/5421",
+    "license": "cc-by",
+    "query": "credit scoring",
+    "file": "data/pdfs/0106_A_COMPARISON_OF_DATA_MINING_TECHNIQUES_FOR_CREDIT_SCORING_IN_BANK.pdf",
+    "sha256": "a1dfd099edeec93f16b4fba5a3b3b5c8dbd995e4b4c1c40adc4aec1c4ae71f15"
+  },
+  {
+    "title": "Credit scoring models for the microfinance industry using neural networks: Evidence from Peru",
+    "doi": "https://doi.org/10.1016/j.eswa.2012.07.051",
+    "year": 2012,
+    "url": "https://digibug.ugr.es/bitstream/10481/89801/1/1.%20PAPER%20PUBLICADO%20-%20ESWAa.pdf",
+    "license": "cc-by-nc-nd",
+    "query": "credit scoring",
+    "file": "data/pdfs/0107_Credit_scoring_models_for_the_microfinance_industry_using_neural_.pdf",
+    "sha256": "5d61849434dbaaa782e112c399b8a7bbcb5519517ff77e54f80eec431fff8105"
+  },
+  {
+    "title": "Large Unbalanced Credit Scoring Using Lasso-Logistic Regression Ensemble",
+    "doi": "https://doi.org/10.1371/journal.pone.0117844",
+    "year": 2015,
+    "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0117844&type=printable",
+    "license": "cc-by",
+    "query": "credit scoring",
+    "file": "data/pdfs/0111_Large_Unbalanced_Credit_Scoring_Using_Lasso-Logistic_Regression_E.pdf",
+    "sha256": "4b9c8bbe76ff9b71a41f5aad27fafe6ffc4e7d9cb407efd38ceaeb4e76747b0f"
+  },
+  {
+    "title": "CUSTOMER CREDIT SCORING",
+    "doi": null,
+    "year": 2026,
+    "url": "https://ijdim.com/journal/index.php/ijdim/article/download/584/546",
+    "license": "cc-by-nc-nd",
+    "query": "credit scoring",
+    "file": "data/pdfs/0114_CUSTOMER_CREDIT_SCORING.pdf",
+    "sha256": "a135a9c56781bd519e914c03c6fb2d4264376c9281049a9827577030081e75db"
+  },
+  {
+    "title": "The Future of Consumer Credit in Lithuania: Quo vadis, Consumer Credit?",
+    "doi": "https://doi.org/10.12697/ji.2014.22.12",
+    "year": 2014,
+    "url": "http://ojs.utlib.ee/index.php/juridica/article/download/JI.2014.22.12/6984",
+    "license": "cc-by-nc-nd",
+    "query": "consumer credit",
+    "file": "data/pdfs/0119_The_Future_of_Consumer_Credit_in_Lithuania_Quo_vadis_Consumer_C.pdf",
+    "sha256": "0ac9c1faea868d1c9e0ae749fc612a7f2dc003676847df50862fa0c46dcfcea9"
+  },
+  {
+    "title": "Observing Unobservables: Identifying Information Asymmetries with a Consumer Credit Field Experiment",
+    "doi": "https://doi.org/10.1257/rct.1241",
+    "year": 2016,
+    "url": "https://ageconsearch.umn.edu/record/28482/files/dp050911.pdf",
+    "license": "cc-by-nc-nd",
+    "query": "consumer credit",
+    "file": "data/pdfs/0122_Observing_Unobservables_Identifying_Information_Asymmetries_with.pdf",
+    "sha256": "46524a8ef979cf2560ed1ba15fba1ddea267db93ac0994c6a4571c486871dbf6"
+  },
+  {
+    "title": "The Effects of Competition in Consumer Credit Market",
+    "doi": "https://doi.org/10.3386/w26183",
+    "year": 2019,
+    "url": "https://doi.org/10.3386/w26183",
+    "license": "cc-by",
+    "query": "consumer credit",
+    "file": "data/pdfs/0125_The_Effects_of_Competition_in_Consumer_Credit_Market.pdf",
+    "sha256": "b5aeb4502a70bf0157f3b8ecf90e0dc614de240d47436e143caf51cb17924d8d"
+  },
+  {
+    "title": "How Costly is Noise? Data and Disparities in Consumer Credit",
+    "doi": "https://doi.org/10.48550/arxiv.2105.07554",
+    "year": 2021,
+    "url": "https://arxiv.org/pdf/2105.07554",
+    "license": "cc-by",
+    "query": "consumer credit",
+    "file": "data/pdfs/0127_How_Costly_is_Noise_Data_and_Disparities_in_Consumer_Credit.pdf",
+    "sha256": "495d2e47d26a59dfa864a4435b6d19a9042f885e11a6fec00f74f3101bee3d53"
+  },
+  {
+    "title": "Consumer Credit and Household Financial Vulnerability",
+    "doi": "https://doi.org/10.54254/2754-1169/2025.22953",
+    "year": 2025,
+    "url": "https://www.ewadirect.com/proceedings/aemps/article/view/22953/pdf",
+    "license": "cc-by",
+    "query": "consumer credit",
+    "file": "data/pdfs/0128_Consumer_Credit_and_Household_Financial_Vulnerability.pdf",
+    "sha256": "5343e92a57fbce2927055635ff94eb9f267dd6f0970a6655301b07770b945d8c"
+  },
+  {
+    "title": "Economic aspects of consumer credit",
+    "doi": "https://doi.org/10.60026/ijpamed.v8i1.66",
+    "year": 2023,
+    "url": "http://www.ijpamed.eu/index.php/journal/article/download/66/64",
+    "license": "cc-by",
+    "query": "consumer credit",
+    "file": "data/pdfs/0129_Economic_aspects_of_consumer_credit.pdf",
+    "sha256": "e8182de2b75187e212e6719a0975a7c4309e76a4de5ef0cd9b790d97646d6199"
+  },
+  {
+    "title": "Consumer Credit as Lifestyle Activities Facilitators for Consumers of Bangladesh",
+    "doi": "https://doi.org/10.5539/ijms.v1n2p114",
+    "year": 2009,
+    "url": "https://ccsenet.org/journal/index.php/ijms/article/download/3300/3677",
+    "license": "cc-by",
+    "query": "consumer credit",
+    "file": "data/pdfs/0131_Consumer_Credit_as_Lifestyle_Activities_Facilitators_for_Consumer.pdf",
+    "sha256": "d12b2a32104356fd04e7edf734ec3268f7c921163de429c76eaeee6c9ee247c8"
+  },
+  {
+    "title": "Research on Consumer Credit Rating Model",
+    "doi": "https://doi.org/10.2991/978-94-6463-298-9_17",
+    "year": 2023,
+    "url": "https://www.atlantis-press.com/article/125994720.pdf",
+    "license": "cc-by-nc",
+    "query": "consumer credit",
+    "file": "data/pdfs/0132_Research_on_Consumer_Credit_Rating_Model.pdf",
+    "sha256": "958d9d851e19acd8ce07c1d5d0bd4f4d16a01b3d402a00b30eb1f2c25636093c"
+  },
+  {
+    "title": "THE UPI EFFECT: HOW TRUST AND CONVENIENCE SHAPED PAYMENT BEHAVIOUR",
+    "doi": "https://doi.org/10.64571/x2gff334",
+    "year": 2022,
+    "url": "https://ijeml.com/journal/index.php/ijeml/article/download/92/92",
+    "license": "cc-by-nc-nd",
+    "query": "payment behaviour",
+    "file": "data/pdfs/0134_THE_UPI_EFFECT_HOW_TRUST_AND_CONVENIENCE_SHAPED_PAYMENT_BEHAVIOU.pdf",
+    "sha256": "0d528410042c4d0ccc2262d46acb2cd1b4c7d49b1dafd7b1b54e64a37a8a4388"
+  },
+  {
+    "title": "UPI Adoption and Consumer Payment Behaviour in India",
+    "doi": "https://doi.org/10.55041/ijsmt.v2i7.051",
+    "year": 2026,
+    "url": "https://ijsmt.org/wp-content/uploads/2026/07/UPI-Adoption-and-Consumer-Payment-Behaviour-in-India.pdf",
+    "license": "cc-by",
+    "query": "payment behaviour",
+    "file": "data/pdfs/0135_UPI_Adoption_and_Consumer_Payment_Behaviour_in_India.pdf",
+    "sha256": "bba21fa11b6fd02a50b6f206a1b665dd194f4885a4e22c89e12103cc79ccbd07"
+  },
+  {
+    "title": "Impact of Unified Payments Interface (UPI) on Consumer Payment Behaviour in India",
+    "doi": "https://doi.org/10.55041/ijsrem64819",
+    "year": 2026,
+    "url": "https://ijsrem.com/uploads/articles/1781100437594-154e0d6dca3b-RP.pdf",
+    "license": "cc-by",
+    "query": "payment behaviour",
+    "file": "data/pdfs/0136_Impact_of_Unified_Payments_Interface_UPI_on_Consumer_Payment_Be.pdf",
+    "sha256": "1e6af975a5ca2b734ac7c7c07ef33d41fc534a16e953d139a5d4e9fe2ed1a3e7"
+  },
+  {
+    "title": "A multi-decadal and social-ecological systems analysis of community waterpoint payment behaviours in rural Kenya",
+    "doi": "https://doi.org/10.1016/j.jrurstud.2016.07.026",
+    "year": 2016,
+    "url": "https://ora.ox.ac.uk/objects/uuid:f73e5ad6-23a5-4457-be0a-fbf7a2249b8b/files/m2dee4103c3f1a4a59156b8962e7c5b3c",
+    "license": "cc-by-nc-nd",
+    "query": "payment behaviour",
+    "file": "data/pdfs/0137_A_multi-decadal_and_social-ecological_systems_analysis_of_communi.pdf",
+    "sha256": "36d41a0452f455c45d89ea07e76ccb8b1bb4713df4852658e8406a2209c20606"
+  },
+  {
+    "title": "The Shift in Retail Consumer Payment Behaviour: A Comparative Study of Cash, UPI and other Digital Payment Methods",
+    "doi": "https://doi.org/10.55041/ijsrem67913",
+    "year": 2026,
+    "url": "https://ijsrem.com/download/the-shift-in-retail-consumer-payment-behaviour-a-comparative-study-of-cash-upi-and-other-digital-payment-methods/fulltext.pdf",
+    "license": "cc-by",
+    "query": "payment behaviour",
+    "file": "data/pdfs/0139_The_Shift_in_Retail_Consumer_Payment_Behaviour_A_Comparative_Stu.pdf",
+    "sha256": "844b190536429483dee51b534a256abfb1211fc689758cb83da02e17e1c52826"
+  },
+  {
+    "title": "The Effect of Covid-19 on Consumers\u2019 Payment Behaviour: Integration of the Theory of Planned Behaviour and the Health Belief Model",
+    "doi": "https://doi.org/10.2991/978-2-494069-99-2_9",
+    "year": 2023,
+    "url": "https://www.atlantis-press.com/article/125984244.pdf",
+    "license": "cc-by-nc",
+    "query": "payment behaviour",
+    "file": "data/pdfs/0143_The_Effect_of_Covid-19_on_Consumers_Payment_Behaviour_Integrati.pdf",
+    "sha256": "7f80b6cd8c10fd2a050bcac856791eaae9464ff5a820297ce6351b669b33571d"
+  },
+  {
+    "title": "Digital Financial Inclusion and Household Payment Behaviour: An Empirical Study of Rural Households in Darrang District, Assam",
+    "doi": "https://doi.org/10.56975/ijrti.v11i6.213469",
+    "year": 2026,
+    "url": "https://www.ijrti.org/papers/IJRTI2606068.pdf",
+    "license": "cc-by-nc",
+    "query": "payment behaviour",
+    "file": "data/pdfs/0144_Digital_Financial_Inclusion_and_Household_Payment_Behaviour_An_E.pdf",
+    "sha256": "5a8026439ac2c383cec480934b88437736a4fdbe1be65ee634a5ab8d7fe78a8d"
+  },
+  {
+    "title": "Extending the Entrepreneurial Event Model to Explain Business Zakat Payment Behaviour among Muslim Sole Proprietors in Kedah",
+    "doi": "https://doi.org/10.6007/ijarbss/v16-i9/29052",
+    "year": 2026,
+    "url": "https://hrmars.com/papers_submitted/29052/extending-the-entrepreneurial-event-model-to-explain-business-zakat-payment-behaviour-among-muslim-sole-proprietors-in-kedah.pdf",
+    "license": "cc-by",
+    "query": "payment behaviour",
+    "file": "data/pdfs/0145_Extending_the_Entrepreneurial_Event_Model_to_Explain_Business_Zak.pdf",
+    "sha256": "fb9b5df2db3ed4b6566b51b3c7f0c287100905f2a13ae8fd14b0a37cc1cf604b"
+  },
+  {
+    "title": "DIGITAL PAYMENT BEHAVIOUR AMONG UNDERGRADUATE STUDENTS IN INDIA: AN EMPIRICAL STUDY OF UPI ADOPTION AND CASH DEPENDENCY",
+    "doi": "https://doi.org/10.70096/tssr.260405019",
+    "year": 2026,
+    "url": "https://tssreview.in/wp-content/uploads/2026/10/19-Manisha.pdf",
+    "license": "cc-by",
+    "query": "payment behaviour",
+    "file": "data/pdfs/0146_DIGITAL_PAYMENT_BEHAVIOUR_AMONG_UNDERGRADUATE_STUDENTS_IN_INDIA_.pdf",
+    "sha256": "21a8a1cb58a0f41042f2fbbac1735a5097b6528fad22a3557ece923367cb4b7b"
+  },
+  {
+    "title": "Development and comparison of payment behaviour prediction models for two South African state departments",
+    "doi": "https://doi.org/10.4102/sajems.v20i1.1701",
+    "year": 2017,
+    "url": "https://sajems.org/index.php/sajems/article/download/1701/916",
+    "license": "cc-by",
+    "query": "payment behaviour",
+    "file": "data/pdfs/0147_Development_and_comparison_of_payment_behaviour_prediction_models.pdf",
+    "sha256": "0c474c041f82cb5f4857f6c747d860832a66f33dfa90bd373a1f9e411c60b53a"
+  },
+  {
+    "title": "FROM VOLUNTARY ADOPTION TO COMPELLED ACCEPTANCE: REFRAMING DIGITAL PAYMENT BEHAVIOUR THROUGH INDIA'S UPI ECOSYSTEM",
+    "doi": "https://doi.org/10.52152/bd5fwz33",
+    "year": 2026,
+    "url": "https://lex-localis.org/index.php/LexLocalis/article/download/803867/3681",
+    "license": "cc-by-nc-nd",
+    "query": "payment behaviour",
+    "file": "data/pdfs/0148_FROM_VOLUNTARY_ADOPTION_TO_COMPELLED_ACCEPTANCE_REFRAMING_DIGITA.pdf",
+    "sha256": "73cf2b8db5cda745196c027edff593178133a94567f47e3dbab3b09bef1a67ac"
+  },
+  {
+    "title": "Impact of Digital Payments on Consumer Spending Behaviour",
+    "doi": "https://doi.org/10.55041/ijcope.v2i5.410",
+    "year": 2026,
+    "url": "https://ijcope.org/wp-content/uploads/2026/05/Impact-of-Digital-Payments-on-Consumer-Spending-Behaviour.pdf",
+    "license": "cc-by-nc",
+    "query": "payment behaviour",
+    "file": "data/pdfs/0151_Impact_of_Digital_Payments_on_Consumer_Spending_Behaviour.pdf",
+    "sha256": "6a9b4b0d085c5dd2ac6189426b368d40adac0512e74561f85480aa65ee2cc8c7"
+  },
+  {
+    "title": "Adoption and User Behaviour Towards Digital Payments by Millennial",
+    "doi": "https://doi.org/10.70135/seejph.vi.2126",
+    "year": 2024,
+    "url": "https://www.seejph.com/index.php/seejph/article/download/2126/1459",
+    "license": "cc-by-nd",
+    "query": "payment behaviour",
+    "file": "data/pdfs/0152_Adoption_and_User_Behaviour_Towards_Digital_Payments_by_Millennia.pdf",
+    "sha256": "c428bfa1f323d2c973a5b52dae6d3635b287fe8ce8ce185780977bf30ba9b8bf"
+  },
+  {
+    "title": "Impact of Digital Payments on Consumer Buying Behaviour",
+    "doi": null,
+    "year": 2026,
+    "url": "https://www.ijesh.com/j/article/download/1232/1322",
+    "license": "cc-by",
+    "query": "payment behaviour",
+    "file": "data/pdfs/0154_Impact_of_Digital_Payments_on_Consumer_Buying_Behaviour.pdf",
+    "sha256": "55d2ae4ae2026b5c74bd4fe14fe85683e09ff079c90290f55c5f41a19f7b8ecd"
+  },
+  {
+    "title": "THE RISE OF DIGITAL PAYMENTS & ITS EFFECT ON CONSUMER BEHAVIOUR",
+    "doi": null,
+    "year": 2026,
+    "url": "https://ijarmt.com/index.php/j/article/download/1332/1266",
+    "license": "cc-by-nc",
+    "query": "payment behaviour",
+    "file": "data/pdfs/0155_THE_RISE_OF_DIGITAL_PAYMENTS_ITS_EFFECT_ON_CONSUMER_BEHAVIOUR.pdf",
+    "sha256": "54287f2437e2ee6666f8682a8ee2e34a47ebca266d81289d236aac2a396582a6"
+  },
+  {
+    "title": "A Study on Digital payment systems and their impact on consumer behaviour",
+    "doi": "https://doi.org/10.56975/ijvra.v4i2.700880",
+    "year": 2026,
+    "url": "https://ijpub.org/ijvra/papers/IJVRA2602274.pdf",
+    "license": "cc-by-nc",
+    "query": "payment behaviour",
+    "file": "data/pdfs/0156_A_Study_on_Digital_payment_systems_and_their_impact_on_consumer_b.pdf",
+    "sha256": "b128de0b8177d84934f661614e688ae6138a6d9bef6b84707183a527dd1c589b"
+  },
+  {
+    "title": "The influence of behavioural intention on third-party e-commerce payment",
+    "doi": "https://doi.org/10.4102/sajems.v21i1.2157",
+    "year": 2018,
+    "url": "https://sajems.org/index.php/sajems/article/download/2157/1335",
+    "license": "cc-by",
+    "query": "payment behaviour",
+    "file": "data/pdfs/0158_The_influence_of_behavioural_intention_on_third-party_e-commerce_.pdf",
+    "sha256": "305c5b761ced0b1906e348cc6f3f44bd96b6fe3f7cc24eec4a20d63295162f79"
+  },
+  {
+    "title": "An integrated model combining ECM and UTAUT to explain users\u2019 post-adoption behaviour towards mobile payment systems",
+    "doi": "https://doi.org/10.3127/ajis.v24i0.2695",
+    "year": 2020,
+    "url": "https://journal.acs.org.au/index.php/ajis/article/download/2695/1015",
+    "license": "cc-by-nc-nd",
+    "query": "payment behaviour",
+    "file": "data/pdfs/0160_An_integrated_model_combining_ECM_and_UTAUT_to_explain_users_pos.pdf",
+    "sha256": "eb490881e854f3f18d531b6e320b3ab82d618643755ca1d38e1a2a86228b9c55"
+  },
+  {
+    "title": "Understanding zakat payments in Indonesia: A psychological perspective on muzakki behaviour",
+    "doi": "https://doi.org/10.26740/al-uqud.v8n2.p271-286",
+    "year": 2024,
+    "url": "https://journal.unesa.ac.id/index.php/jie/article/download/36016/12990",
+    "license": "cc-by",
+    "query": "payment behaviour",
+    "file": "data/pdfs/0163_Understanding_zakat_payments_in_Indonesia_A_psychological_perspe.pdf",
+    "sha256": "ade80146435c268573fe6f8dd0fb4598bb866d9eafca61c5ca5e915a39ac3728"
+  },
+  {
+    "title": "The Enthusiasm of Digital Payment Services and Millennial Consumer Behaviour in Indonesia",
+    "doi": "https://doi.org/10.26668/businessreview/2023.v8i2.923",
+    "year": 2023,
+    "url": "https://www.openaccessojs.com/JBReview/article/download/923/441",
+    "license": "cc-by-nd",
+    "query": "payment behaviour",
+    "file": "data/pdfs/0164_The_Enthusiasm_of_Digital_Payment_Services_and_Millennial_Consume.pdf",
+    "sha256": "6b9c675d08348ad89926d02f014c9f9b9e323b98d3a6bdf785605112813e34a7"
+  },
+  {
+    "title": "Impact of UPI and Digital Payments on Consumer Financial Behaviour in India",
+    "doi": "https://doi.org/10.56975/ijrti.v11i9.300532",
+    "year": 2026,
+    "url": "https://ijrti.org/papers/IJRTI2609193.pdf",
+    "license": "cc-by",
+    "query": "payment behaviour",
+    "file": "data/pdfs/0166_Impact_of_UPI_and_Digital_Payments_on_Consumer_Financial_Behaviou.pdf",
+    "sha256": "e26453bf264fcdac3351e17e50baebaf3b888d21cb5c6cc83b8c413b900e571a"
+  },
+  {
+    "title": "Dynamic explainability-constrained hyperparameter tuning for transparent credit card fraud risk scoring",
+    "doi": "https://doi.org/10.30574/ijsra.2024.12.1.1143",
+    "year": 2024,
+    "url": "https://ijsra.net/sites/default/files/fulltext_pdf/IJSRA-2024-1143.pdf",
+    "license": "cc-by",
+    "query": "credit card fraud risk",
+    "file": "data/pdfs/0169_Dynamic_explainability-constrained_hyperparameter_tuning_for_tran.pdf",
+    "sha256": "2da6bd0f5f267b152422ec5d835b450edc7e653d1c33969e0627d446311b19db"
+  },
+  {
+    "title": "Credit Card Fraud Detection Using Machine Learning and Risk-Based Alert Strategies",
+    "doi": "https://doi.org/10.54254/2754-1169/2026.ld36536",
+    "year": 2026,
+    "url": "https://aemps.ewapub.com/article/view/36536.pdf",
+    "license": "cc-by",
+    "query": "credit card fraud risk",
+    "file": "data/pdfs/0171_Credit_Card_Fraud_Detection_Using_Machine_Learning_and_Risk-Based.pdf",
+    "sha256": "e4cfae904aa1cd8911a4be13ec9831f9a6fe66970748ae55c61af11b12043d71"
+  },
+  {
+    "title": "Agentic AI in Cloud-Based Credit Card Fraud Detection: Towards Autonomous Risk Mitigation",
+    "doi": "https://doi.org/10.5935/jetia.v12i58.3345",
+    "year": 2026,
+    "url": "https://itegam-jetia.org/journal/index.php/jetia/article/download/3345/1452",
+    "license": "cc-by",
+    "query": "credit card fraud risk",
+    "file": "data/pdfs/0172_Agentic_AI_in_Cloud-Based_Credit_Card_Fraud_Detection_Towards_Au.pdf",
+    "sha256": "8ade9a498994d4e2922db919d6806baa734d51ebc9f2e6e0d537ef95c22bdd77"
+  },
+  {
+    "title": "Credit card fraud detection and risk management strategies: A deep learning-based approach for EU banks",
+    "doi": "https://doi.org/10.18559/ref.2025.1.2108",
+    "year": 2025,
+    "url": "https://www.journals.ue.poznan.pl/REF/article/download/2108/1100",
+    "license": "cc-by",
+    "query": "credit card fraud risk",
+    "file": "data/pdfs/0173_Credit_card_fraud_detection_and_risk_management_strategies_A_dee.pdf",
+    "sha256": "acc44b4f7812862963000a779afb4a6d7ee2f0f8c6e6259c3119858cc17ac0b7"
+  },
+  {
+    "title": "A deep dive into credit card networks, fraud detection, and artificial intelligence - driven risk assessment",
+    "doi": "https://doi.org/10.70593/978-81-988918-1-5_8",
+    "year": 2025,
+    "url": "https://deepscienceresearch.com/dsr/catalog/download/159/843/1741",
+    "license": "cc-by-sa",
+    "query": "credit card fraud risk",
+    "file": "data/pdfs/0174_A_deep_dive_into_credit_card_networks_fraud_detection_and_artif.pdf",
+    "sha256": "a259ff3279e9e60cb50d1b9b3aa72c6dd9e558bb1e2d6097ac27ac1af6ff763f"
+  },
+  {
+    "title": "Enhancing Credit and Charge Card Risk Assessment Through Generative AI and Big Data Analytics: A Novel Approach to Fraud Detection and Consumer Spending Patterns",
+    "doi": "https://doi.org/10.48047/6z0p0t08",
+    "year": 2025,
+    "url": "https://cuestionesdefisioterapia.com/index.php/es/article/download/2094/1530",
+    "license": "cc-by",
+    "query": "credit card fraud risk",
+    "file": "data/pdfs/0176_Enhancing_Credit_and_Charge_Card_Risk_Assessment_Through_Generati.pdf",
+    "sha256": "d29564088303e0a95352e119ed363c817463360f3d69d34bf2ac7b58cd7a89cd"
+  },
+  {
+    "title": "Exploring the Intricacies of Credit Card Fraud",
+    "doi": "https://doi.org/10.54254/2754-1169/2025.lh23998",
+    "year": 2025,
+    "url": "https://www.ewadirect.com/proceedings/aemps/article/view/23998/pdf",
+    "license": "cc-by",
+    "query": "credit card fraud risk",
+    "file": "data/pdfs/0178_Exploring_the_Intricacies_of_Credit_Card_Fraud.pdf",
+    "sha256": "40b83ffb008c28a7ccaea59f38c3ca9b1287b4b4188e3c14228a263d41da62e6"
+  },
+  {
+    "title": "Adaptive Model for Credit Card Fraud Detection",
+    "doi": "https://doi.org/10.3991/ijim.v14i03.11763",
+    "year": 2020,
+    "url": "https://online-journals.org/index.php/i-jim/article/download/11763/6567",
+    "license": "cc-by",
+    "query": "credit card fraud risk",
+    "file": "data/pdfs/0179_Adaptive_Model_for_Credit_Card_Fraud_Detection.pdf",
+    "sha256": "bfa292039fd76409bdbaf092fa3b366f04182a5970b7c76a794a7a8deb35ad29"
+  },
+  {
+    "title": "Credit Card Fraud Detection",
+    "doi": "https://doi.org/10.38124/ijisrt/ijisrt24mar961",
+    "year": 2024,
+    "url": "https://www.ijisrt.com/assets/upload/files/IJISRT24MAR961.pdf",
+    "license": "cc-by-nc",
+    "query": "credit card fraud risk",
+    "file": "data/pdfs/0180_Credit_Card_Fraud_Detection.pdf",
+    "sha256": "2f97e2a299ba49f4096766f14d904495de124368229e282eb140dfe42969a6eb"
+  },
+  {
+    "title": "Detection and Impact of Debit/Credit Card Fraud: Victims' Experiences",
+    "doi": "https://doi.org/10.1145/3688459.3688464",
+    "year": 2024,
+    "url": "https://arxiv.org/pdf/2408.08131",
+    "license": "cc-by",
+    "query": "credit card fraud risk",
+    "file": "data/pdfs/0181_Detection_and_Impact_of_Debit_Credit_Card_Fraud_Victims_Experie.pdf",
+    "sha256": "11e2c6638b528fbfc412951d7bdc6336bc4de44bc8da1b8efc54c9931a9d57b0"
+  },
+  {
+    "title": "Root cause analysis of credit card fraud",
+    "doi": "https://doi.org/10.54254/2754-1169/24/20230454",
+    "year": 2023,
+    "url": "https://www.ewadirect.com/proceedings/aemps/article/view/3726/pdf",
+    "license": "cc-by",
+    "query": "credit card fraud risk",
+    "file": "data/pdfs/0182_Root_cause_analysis_of_credit_card_fraud.pdf",
+    "sha256": "64bb82ee0e1de6018dcb36709d7b8a9c106b24d8c130586c3eb672acbf08e777"
+  },
+  {
+    "title": "Credit Card Fraud Detection System",
+    "doi": "https://doi.org/10.38124/ijisrt/ijisrt24apr939",
+    "year": 2024,
+    "url": "https://www.ijisrt.com/assets/upload/files/IJISRT24APR939.pdf",
+    "license": "cc-by-nc",
+    "query": "credit card fraud risk",
+    "file": "data/pdfs/0185_Credit_Card_Fraud_Detection_System.pdf",
+    "sha256": "512aa2e02bb660528bd825d2113db49fc391912e1825936168de57237798b95d"
+  },
+  {
+    "title": "Survey of Fraud Detection Techniques for Credit Card Transactions",
+    "doi": "https://doi.org/10.29196/jubpas.v32i2.5283",
+    "year": 2024,
+    "url": "https://journalofbabylon.com/index.php/JUBPAS/article/download/5283/3984",
+    "license": "cc-by",
+    "query": "credit card fraud risk",
+    "file": "data/pdfs/0186_Survey_of_Fraud_Detection_Techniques_for_Credit_Card_Transactions.pdf",
+    "sha256": "05bf4d44978ca3d439584fee0a2e3d96e76c50ecf997752140c18d92613fc909"
+  },
+  {
+    "title": "Lost, stolen or skimmed: Overcoming credit card fraud in South Africa",
+    "doi": "https://doi.org/10.17159/2413-3108/2012/i40a843",
+    "year": 2012,
+    "url": "https://journals.assaf.org.za/index.php/sacq/article/download/843/910",
+    "license": "cc-by",
+    "query": "credit card fraud risk",
+    "file": "data/pdfs/0187_Lost_stolen_or_skimmed_Overcoming_credit_card_fraud_in_South_Af.pdf",
+    "sha256": "349e266adb101566b9f587be6dfa8097a16f6cca6d29903c1e083cf0a917848c"
+  },
+  {
+    "title": "Semi-supervised Credit Card Fraud Detection via Attribute-Driven Graph Representation",
+    "doi": "https://doi.org/10.1609/aaai.v37i12.26702",
+    "year": 2023,
+    "url": "https://arxiv.org/pdf/2412.18287",
+    "license": "cc-by",
+    "query": "credit card fraud risk",
+    "file": "data/pdfs/0189_Semi-supervised_Credit_Card_Fraud_Detection_via_Attribute-Driven_.pdf",
+    "sha256": "d533464294c48774ca0cdde8a3b258f8d553c913dc87ef55aa668b0218929a23"
+  },
+  {
+    "title": "Fraud Prediction in Movie Theater Credit Card Transactions using Machine Learning",
+    "doi": "https://doi.org/10.48084/etasr.5950",
+    "year": 2023,
+    "url": "https://www.etasr.com/index.php/ETASR/article/download/5950/3135",
+    "license": "cc-by",
+    "query": "credit card fraud risk",
+    "file": "data/pdfs/0194_Fraud_Prediction_in_Movie_Theater_Credit_Card_Transactions_using_.pdf",
+    "sha256": "cba7ffe5d27129923e8541d1bf40e8f72cb72184947c771965e798fa049a70c7"
+  },
+  {
+    "title": "An Experimental Study With Imbalanced Classification Approaches for Credit Card Fraud Detection",
+    "doi": "https://doi.org/10.1109/access.2019.2927266",
+    "year": 2019,
+    "url": "https://ieeexplore.ieee.org/ielx7/6287639/8600701/08756130.pdf",
+    "license": "cc-by",
+    "query": "credit card fraud risk",
+    "file": "data/pdfs/0195_An_Experimental_Study_With_Imbalanced_Classification_Approaches_f.pdf",
+    "sha256": "8d80fb60b3badba69860bd412d0953e3622f02ec326f5a9d6f2a8ddfd4f158fe"
+  },
+  {
+    "title": "SCARFF : A scalable framework for streaming credit card fraud detection with spark",
+    "doi": "https://doi.org/10.1016/j.inffus.2017.09.005",
+    "year": 2017,
+    "url": "https://arxiv.org/pdf/1709.08920",
+    "license": "cc-by-nc-nd",
+    "query": "credit card fraud risk",
+    "file": "data/pdfs/0197_SCARFF_A_scalable_framework_for_streaming_credit_card_fraud_det.pdf",
+    "sha256": "f4b8676c27d70e488519c7e1d85532213e0230f59426a4b8f44a2ba7c1d5def8"
+  },
+  {
+    "title": "Investigation of Factors Influencing Credit Card Frauds in E-Banking at Access Bank Nigeria",
+    "doi": null,
+    "year": 2024,
+    "url": "https://africanscholarpub.com/ajbdmr/article/download/314/309",
+    "license": "cc-by",
+    "query": "credit card fraud risk",
+    "file": "data/pdfs/0200_Investigation_of_Factors_Influencing_Credit_Card_Frauds_in_E-Bank.pdf",
+    "sha256": "9da2c6b40fb2838a69bd93e4396e6835d568bc66db3a387e952d47221a47eb6c"
+  },
+  {
+    "title": "Deep Learning Methods for Credit Card Fraud Detection",
+    "doi": "https://doi.org/10.48550/arxiv.2012.03754",
+    "year": 2020,
+    "url": "https://arxiv.org/pdf/2012.03754",
+    "license": "cc-by",
+    "query": "credit card fraud risk",
+    "file": "data/pdfs/0201_Deep_Learning_Methods_for_Credit_Card_Fraud_Detection.pdf",
+    "sha256": "3131b5dd51713601dbb5e137feded61075d8dba3d01cd54f19ecfc0213ad4857"
+  },
+  {
+    "title": "Credit Card Fraud Detection using Supervised and Unsupervised Learning",
+    "doi": "https://doi.org/10.5121/csit.2021.111107",
+    "year": 2021,
+    "url": "https://doi.org/10.5121/csit.2021.111107",
+    "license": "cc-by",
+    "query": "credit card fraud risk",
+    "file": "data/pdfs/0204_Credit_Card_Fraud_Detection_using_Supervised_and_Unsupervised_Lea.pdf",
+    "sha256": "eaa4e7939a0b0d020624ee2942dbe30592236a5acc629f42424fdfd25f844100"
+  },
+  {
+    "title": "Analysis and Detection of Fraud in Credit Card Using SILOF",
+    "doi": "https://doi.org/10.55083/irjeas.2022.v10i03006",
+    "year": 2022,
+    "url": "https://doi.org/10.55083/irjeas.2022.v10i03006",
+    "license": "cc-by",
+    "query": "credit card fraud risk",
+    "file": "data/pdfs/0205_Analysis_and_Detection_of_Fraud_in_Credit_Card_Using_SILOF.pdf",
+    "sha256": "f415792c5f67ef179a37db90cf5c700ade1e208bad3d43215c361e53db8101f3"
+  },
+  {
+    "title": "A Novel Framework for Credit Card Fraud Detection",
+    "doi": "https://doi.org/10.1109/access.2023.3323842",
+    "year": 2023,
+    "url": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/10278390.pdf",
+    "license": "cc-by-nc-nd",
+    "query": "credit card fraud risk",
+    "file": "data/pdfs/0206_A_Novel_Framework_for_Credit_Card_Fraud_Detection.pdf",
+    "sha256": "87139ec7411138bfa0ebcd26fdb2759e56d82689fb7b4e5268ac8fff0a4b2ca5"
+  },
+  {
+    "title": "Advances In Neural Network For Credit Card Fraud Detection",
+    "doi": "https://doi.org/10.71097/ijsat.v16.i2.3236",
+    "year": 2025,
+    "url": "https://www.ijsat.org/papers/2025/2/3236.pdf",
+    "license": "cc-by-sa",
+    "query": "credit card fraud risk",
+    "file": "data/pdfs/0207_Advances_In_Neural_Network_For_Credit_Card_Fraud_Detection.pdf",
+    "sha256": "63256d89634d235b0dc5d15bbf397bd0bda62d7b7daf9edeaeebf8d5c444180e"
+  },
+  {
+    "title": "Credit Card Fraud Detection Using Machine Leraning",
+    "doi": null,
+    "year": 2022,
+    "url": "https://ijerst.org/index.php/ijerst/article/download/2209/1992",
+    "license": "cc-by-nc-nd",
+    "query": "credit card fraud risk",
+    "file": "data/pdfs/0209_Credit_Card_Fraud_Detection_Using_Machine_Leraning.pdf",
+    "sha256": "2e41466c64a39143ed99ce927c307e900b2ebce7631289fadfdf76447d21c5ec"
+  },
+  {
+    "title": "Credit Card Fraud Detection Using Machine Learning",
+    "doi": "https://doi.org/10.56975/ijrti.v10i12.208866",
+    "year": 2025,
+    "url": "https://www.ijrti.org/papers/IJRTI2512154.pdf",
+    "license": "cc-by",
+    "query": "credit card fraud risk",
+    "file": "data/pdfs/0210_Credit_Card_Fraud_Detection_Using_Machine_Learning.pdf",
+    "sha256": "7c304f5afff36790a86aa74b4cc36f8c5d724d73b515e9133657b20cf4bc5c32"
+  },
+  {
+    "title": "The Performance Analysis of Machine Learning Algorithms for Credit Card Fraud Detection",
+    "doi": "https://doi.org/10.3991/ijoe.v19i03.35331",
+    "year": 2023,
+    "url": "https://online-journals.org/index.php/i-joe/article/download/35331/12851",
+    "license": "cc-by",
+    "query": "credit card fraud risk",
+    "file": "data/pdfs/0211_The_Performance_Analysis_of_Machine_Learning_Algorithms_for_Credi.pdf",
+    "sha256": "0aebf6c8057d8d2024daf5ab9a4a52111e701f3628f61cffa61eadbc00154668"
+  },
+  {
+    "title": "A Neural Network Ensemble With Feature Engineering for Improved Credit Card Fraud Detection",
+    "doi": "https://doi.org/10.1109/access.2022.3148298",
+    "year": 2022,
+    "url": "https://ieeexplore.ieee.org/ielx7/6287639/9668973/09698195.pdf",
+    "license": "cc-by",
+    "query": "credit card fraud risk",
+    "file": "data/pdfs/0212_A_Neural_Network_Ensemble_With_Feature_Engineering_for_Improved_C.pdf",
+    "sha256": "d277603bb460fce9319766a9c7403c149a3c00b83f7f8719cb4d417a292c0cb1"
+  },
+  {
+    "title": "Credit Card Fraud Detection Using a Proposed Model: \u201cBlockchain Technology",
+    "doi": "https://doi.org/10.54660/ijfei.2025.2.4.11-18",
+    "year": 2025,
+    "url": "https://www.futureengineeringjournal.com/uploads/archives/20250708122127_FEI-2025-4-008.1.pdf",
+    "license": "cc-by",
+    "query": "credit card fraud risk",
+    "file": "data/pdfs/0214_Credit_Card_Fraud_Detection_Using_a_Proposed_Model_Blockchain_T.pdf",
+    "sha256": "6743b13f8852429d2600a5a783bd839aa6d3693b5b47cd0671d059361dc08ff7"
+  },
+  {
+    "title": "A Review of Determinants of Financial Inclusion",
+    "doi": null,
+    "year": 2018,
+    "url": "https://econjournals.com/index.php/ijefi/article/download/5458/pdf",
+    "license": "cc-by",
+    "query": "financial inclusion",
+    "file": "data/pdfs/0219_A_Review_of_Determinants_of_Financial_Inclusion.pdf",
+    "sha256": "02d70e3c839b0e7e37d597a116d76829c85f20c414f4f4b89fec0bd2407e72a4"
+  },
+  {
+    "title": "Financial Inclusion and Economic Growth in Nigeria",
+    "doi": "https://doi.org/10.58709/niujhu.v10i2.2198",
+    "year": 2025,
+    "url": "https://econjournals.com/index.php/ijefi/article/download/1154/pdf",
+    "license": "cc-by-nc-nd",
+    "query": "financial inclusion",
+    "file": "data/pdfs/0224_Financial_Inclusion_and_Economic_Growth_in_Nigeria.pdf",
+    "sha256": "b5503a99c82bdb43232663538ab125d525fec6d52e390430be9e779a5c5db4d8"
+  },
+  {
+    "title": "Financial Inclusion and Turkey",
+    "doi": "https://doi.org/10.5901/ajis.2015.v4n1s2p269",
+    "year": 2015,
+    "url": "https://www.richtmann.org/journal/index.php/ajis/article/download/6365/6102",
+    "license": "cc-by-nc",
+    "query": "financial inclusion",
+    "file": "data/pdfs/0233_Financial_Inclusion_and_Turkey.pdf",
+    "sha256": "8830b0627193307e21d5a1505ae70a74ff54a6a2664a62f326f4c1510eab4fac"
+  },
+  {
+    "title": "The impact of financial inclusion on monetary policy in Nigeria",
+    "doi": "https://doi.org/10.5897/jeif2013.0541",
+    "year": 2013,
+    "url": "https://academicjournals.org/journal/JEIF/article-full-text-pdf/73E67DD41532",
+    "license": "cc-by",
+    "query": "financial inclusion",
+    "file": "data/pdfs/0235_The_impact_of_financial_inclusion_on_monetary_policy_in_Nigeria.pdf",
+    "sha256": "d1a9564e59dcb295eff5d0a2aeaf50471c4d49be10f4ad806faac543d530ff54"
+  },
+  {
+    "title": "Financial Inclusion in Ethiopia",
+    "doi": "https://doi.org/10.5539/ijef.v9n4p191",
+    "year": 2017,
+    "url": "http://www.ccsenet.org/journal/index.php/ijef/article/download/67236/36468",
+    "license": "cc-by",
+    "query": "financial inclusion",
+    "file": "data/pdfs/0236_Financial_Inclusion_in_Ethiopia.pdf",
+    "sha256": "b8b0e32d46b801e4912376c59f2b6ab78dcfcf4ea26f767d32fc05d000ae33c3"
+  },
+  {
+    "title": "The Determinants of Financial Inclusion in Egypt",
+    "doi": "https://doi.org/10.5430/ijfr.v11n1p123",
+    "year": 2019,
+    "url": "http://www.sciedupress.com/journal/index.php/ijfr/article/download/16115/10254",
+    "license": "cc-by",
+    "query": "financial inclusion",
+    "file": "data/pdfs/0240_The_Determinants_of_Financial_Inclusion_in_Egypt.pdf",
+    "sha256": "92fd513453be5ca5dcd8b64231a80fe7bd192d122eed3b6c3d6f1d701f3975c3"
+  },
+  {
+    "title": "Determinants of Financial Inclusion in Southern Africa",
+    "doi": "https://doi.org/10.2478/subboec-2020-0014",
+    "year": 2020,
+    "url": "https://www.sciendo.com/pdf/10.2478/subboec-2020-0014",
+    "license": "cc-by-nc-nd",
+    "query": "financial inclusion",
+    "file": "data/pdfs/0247_Determinants_of_Financial_Inclusion_in_Southern_Africa.pdf",
+    "sha256": "3b9064e680155de0a5527e1886f3c2e2fdfcdecb3e4ed11e7e53377dbf9ac56a"
+  },
+  {
+    "title": "Financial Literacy and Financial Inclusion",
+    "doi": "https://doi.org/10.59075/zjss.v2i1.227",
+    "year": 2023,
+    "url": "https://journals.airsd.org/index.php/zjss/article/download/227/73",
+    "license": "cc-by",
+    "query": "financial inclusion",
+    "file": "data/pdfs/0250_Financial_Literacy_and_Financial_Inclusion.pdf",
+    "sha256": "889f797f4bf53714678dca114b776b530ede63ef2182a205210e2c4ce7fb7075"
+  },
+  {
+    "title": "CREDIT RISK EARLY WARNING IN RURAL BANKING: INTEGRATING DATA QUALITY, JUDGMENT, AND RESPONSIBLE INTERVENTION",
+    "doi": null,
+    "year": 2026,
+    "url": "https://jesocin.com/index.php/jesocin/article/download/152/164",
+    "license": "cc-by-sa",
+    "query": "credit risk early warning",
+    "file": "data/pdfs/0253_CREDIT_RISK_EARLY_WARNING_IN_RURAL_BANKING_INTEGRATING_DATA_QUAL.pdf",
+    "sha256": "1ecb8ae8e857d8c5cb2b7df041a6c7c103cd780820173f0649b1bce89d6ed0d4"
+  },
+  {
+    "title": "Research on Credit Risk Early Warning Model of Commercial Banks Based on Neural Network Algorithm",
+    "doi": "https://doi.org/10.23977/ferm.2024.070402",
+    "year": 2024,
+    "url": "http://www.clausiuspress.com/assets/default/article/2024/06/30/article_1719739493.pdf",
+    "license": "cc-by",
+    "query": "credit risk early warning",
+    "file": "data/pdfs/0254_Research_on_Credit_Risk_Early_Warning_Model_of_Commercial_Banks_B.pdf",
+    "sha256": "b65203b87a4072fb5cbd08bb0093c20a6840b07c8f0ef17dfaccfa5369a690f2"
+  },
+  {
+    "title": "Design of a Deep Learning Credit Risk Early Warning System Integrating Multi-source Heterogeneous Data",
+    "doi": "https://doi.org/10.1145/3801438.3804860",
+    "year": 2026,
+    "url": "https://arxiv.org/pdf/2609.15744",
+    "license": "cc-by",
+    "query": "credit risk early warning",
+    "file": "data/pdfs/0255_Design_of_a_Deep_Learning_Credit_Risk_Early_Warning_System_Integr.pdf",
+    "sha256": "b3a2ccb91e1aa15b42e1c59e1231423179caf63916ecda0a7df5a85dae451628"
+  },
+  {
+    "title": "Construction of Commercial Real Estate Loan Probability of Default Models and Optimization of Credit Risk Early Warning Mechanisms",
+    "doi": "https://doi.org/10.26855/acc.2026.09.019",
+    "year": 2026,
+    "url": "https://www.hillpublisher.com/UpFile/202610/20261013165708.pdf",
+    "license": "cc-by-nc-nd",
+    "query": "credit risk early warning",
+    "file": "data/pdfs/0258_Construction_of_Commercial_Real_Estate_Loan_Probability_of_Defaul.pdf",
+    "sha256": "e026ca0e000a556374a9320299a3cc7c7b5b964c3a07cb8527458861f2214db4"
+  },
+  {
+    "title": "Research on Credit Risk Early-Warning for Listed Companies in Chengyu Economic Zone Based on Best Fuzzy Support Vector Machine",
+    "doi": "https://doi.org/10.2991/rac-16.2016.82",
+    "year": 2016,
+    "url": "https://www.atlantis-press.com/article/25863515.pdf",
+    "license": "cc-by-nc",
+    "query": "credit risk early warning",
+    "file": "data/pdfs/0259_Research_on_Credit_Risk_Early-Warning_for_Listed_Companies_in_Che.pdf",
+    "sha256": "33a5e708ff864d24128ac11411ba21512a3280761277b7e1b7d7fd22c7808d64"
+  },
+  {
+    "title": "Early Warning Method of Credit Risk of Agricultural Enterprises in Guizhou Province Based on AHP",
+    "doi": "https://doi.org/10.2991/978-94-6463-198-2_66",
+    "year": 2023,
+    "url": "https://www.atlantis-press.com/article/125989678.pdf",
+    "license": "cc-by-nc",
+    "query": "credit risk early warning",
+    "file": "data/pdfs/0262_Early_Warning_Method_of_Credit_Risk_of_Agricultural_Enterprises_i.pdf",
+    "sha256": "71d0939790a5057b521323a9ee899396edae51296a871b2a2e3407a32a891d6b"
+  },
+  {
+    "title": "Early warning model of credit risk for family farms and ranches in Inner Mongolia based on Probit regression-Kmeans clustering",
+    "doi": "https://doi.org/10.3934/mbe.2023375",
+    "year": 2023,
+    "url": "http://www.aimspress.com/aimspress-data/mbe/2023/5/PDF/mbe-20-05-375.pdf",
+    "license": "cc-by-nc-sa",
+    "query": "credit risk early warning",
+    "file": "data/pdfs/0264_Early_warning_model_of_credit_risk_for_family_farms_and_ranches_i.pdf",
+    "sha256": "a8b98a246dcf3e9a81c4e4638740897649fbf00f8ba515b49db186b4d0be0022"
+  },
+  {
+    "title": "From Data to Risk: An AI-Integrated Financial Risk Early Warning Framework for Bank Credit Operations",
+    "doi": "https://doi.org/10.2991/978-94-6239-721-7_22",
+    "year": 2026,
+    "url": "https://www.atlantis-press.com/article/126025911.pdf",
+    "license": "cc-by-nc",
+    "query": "credit risk early warning",
+    "file": "data/pdfs/0265_From_Data_to_Risk_An_AI-Integrated_Financial_Risk_Early_Warning_.pdf",
+    "sha256": "5016d7d5068fb04cd9c1906839d7d80cefb1cc541299ea6438070870bac0640e"
+  },
+  {
+    "title": "Early Warning Signals on Credit Risk Mitigation among SME\u2019s in Malaysia",
+    "doi": "https://doi.org/10.6007/ijarafms/v12-i3/14968",
+    "year": 2022,
+    "url": "https://hrmars.com/papers_submitted/14968/early-warning-signals-on-credit-risk-mitigation-among-smes-in-malaysia.pdf",
+    "license": "cc-by",
+    "query": "credit risk early warning",
+    "file": "data/pdfs/0266_Early_Warning_Signals_on_Credit_Risk_Mitigation_among_SME_s_in_Ma.pdf",
+    "sha256": "0f90315bac7eddef12e7f470233618b397400251f8b16b9b6cbcb8b6bc7ef9a5"
+  },
+  {
+    "title": "Analysis of an Intelligent Early Warning Model for Credit Risk in Listed Companies Based on Multi-Source Data Fusion",
+    "doi": "https://doi.org/10.54097/t6f91c45",
+    "year": 2026,
+    "url": "https://drpress.org/ojs/index.php/jid/article/download/34678/33896",
+    "license": "cc-by-nc",
+    "query": "credit risk early warning",
+    "file": "data/pdfs/0267_Analysis_of_an_Intelligent_Early_Warning_Model_for_Credit_Risk_in.pdf",
+    "sha256": "961c3cb2f62f8329e63cf7186d9e289d6aeee410f71db5e86f3d7ee95d61d052"
+  },
+  {
+    "title": "Early warning research on enterprise carbon emission reduction credit risk based on deep learning model under unbalanced data",
+    "doi": "https://doi.org/10.3389/fenrg.2023.1274425",
+    "year": 2023,
+    "url": "https://www.frontiersin.org/articles/10.3389/fenrg.2023.1274425/pdf?isPublishedV2=False",
+    "license": "cc-by",
+    "query": "credit risk early warning",
+    "file": "data/pdfs/0268_Early_warning_research_on_enterprise_carbon_emission_reduction_cr.pdf",
+    "sha256": "889eee479b27f6c7a36bae8e5ceb448449b39c9d1d1929d22ec8e52376908554"
+  },
+  {
+    "title": "A Review of Machine Learning Applications for Credit Default Risk Prediction and Early Warning Systems",
+    "doi": "https://doi.org/10.54254/2754-1169/2026.ld35742",
+    "year": 2026,
+    "url": "https://aemps.ewapub.com/article/view/35742.pdf",
+    "license": "cc-by",
+    "query": "credit risk early warning",
+    "file": "data/pdfs/0269_A_Review_of_Machine_Learning_Applications_for_Credit_Default_Risk.pdf",
+    "sha256": "aed2ccc91cee1234f985accbbfb08ff836c1bcc87b72a2089b17074fc9484895"
+  },
+  {
+    "title": "The influence of sentiment analysis in enhancing early warning system model for credit risk mitigation",
+    "doi": "https://doi.org/10.11591/ijai.v14.i3.pp1829-1838",
+    "year": 2025,
+    "url": "https://ijai.iaescore.com/index.php/IJAI/article/download/26716/14525",
+    "license": "cc-by-sa",
+    "query": "credit risk early warning",
+    "file": "data/pdfs/0270_The_influence_of_sentiment_analysis_in_enhancing_early_warning_sy.pdf",
+    "sha256": "cd624f724f36fc9ff8565f2a5e6ec6055fedec903433a2d513fb53048885ebe3"
+  },
+  {
+    "title": "Mortgage loan Credit Collectibility as an Early Warning System in Credit Risk Mitigation (Study at Bank Mandiri in 2026)",
+    "doi": "https://doi.org/10.47747/ijbme.v7i2.3514",
+    "year": 2026,
+    "url": "https://journal.jis-institute.org/index.php/ijbmer/article/download/3514/2445",
+    "license": "cc-by",
+    "query": "credit risk early warning",
+    "file": "data/pdfs/0271_Mortgage_loan_Credit_Collectibility_as_an_Early_Warning_System_in.pdf",
+    "sha256": "538ba8ed161bc92aaabb529fb6a8089e8d8138758957b47ed0656718b4bc465b"
+  },
+  {
+    "title": "Research on Credit Debt Liquidity Risk Measurement and Early Warning Based on Machine Learning Model",
+    "doi": "https://doi.org/10.23977/infse.2024.050503",
+    "year": 2024,
+    "url": "http://www.clausiuspress.com/assets/default/article/2024/12/13/article_1734105591.pdf",
+    "license": "cc-by",
+    "query": "credit risk early warning",
+    "file": "data/pdfs/0272_Research_on_Credit_Debt_Liquidity_Risk_Measurement_and_Early_Warn.pdf",
+    "sha256": "32e84731854e3779dff7a70235f0f2cef6e2cc42f8d76c1af4b76bec247f45f6"
+  },
+  {
+    "title": "Building Early-Warning Models for Multiclass Credit Risk Staging: A Comparative Study of Random Forest and XGBoost with SMOTENC and Borderline-SMOTE",
+    "doi": "https://doi.org/10.52436/1.jutif.2026.7.4.5611",
+    "year": 2026,
+    "url": "https://jutif.if.unsoed.ac.id/index.php/jurnal/article/download/5611/1321",
+    "license": "cc-by",
+    "query": "credit risk early warning",
+    "file": "data/pdfs/0273_Building_Early-Warning_Models_for_Multiclass_Credit_Risk_Staging_.pdf",
+    "sha256": "bd535d97a3205b174af11c9e37ab687d1c0b80db12abf30e2b83b3fb89f7f085"
+  },
+  {
+    "title": "Risk-Reduction Credit for Very Early Warning Fire Detection at Nuclear Power Plants: From FAQ to Fiction",
+    "doi": "https://doi.org/10.28991/cej-2019-03091246",
+    "year": 2019,
+    "url": "https://civilejournal.org/index.php/cej/article/download/1206/pdf",
+    "license": "cc-by",
+    "query": "credit risk early warning",
+    "file": "data/pdfs/0275_Risk-Reduction_Credit_for_Very_Early_Warning_Fire_Detection_at_Nu.pdf",
+    "sha256": "f179dfb07bf2994b994b73731ab976db66466f4434a288e2a6ff65abcc9b4e89"
+  },
+  {
+    "title": "Forecasting Corporate Credit Risk with Machine and Deep Learning: A Forward-Looking Early-Warning Framework for U.S. Listed Firms",
+    "doi": "https://doi.org/10.54254/2754-1169/2026.ld37780",
+    "year": 2026,
+    "url": "https://aemps.ewapub.com/article/view/37780.pdf",
+    "license": "cc-by",
+    "query": "credit risk early warning",
+    "file": "data/pdfs/0276_Forecasting_Corporate_Credit_Risk_with_Machine_and_Deep_Learning_.pdf",
+    "sha256": "e968c051c4694b4324fea04ead56994a76ffe17b87d217b85cb91573f7fa6912"
+  },
+  {
+    "title": "Corporate Credit Rating Solutions - A Combined Study of Quantitative Modeling and S&P Methodology",
+    "doi": "https://doi.org/10.59543/jidmis.v3.1829",
+    "year": 2026,
+    "url": "https://jidmis.org/index.php/jidmis/article/download/1829/756",
+    "license": "cc-by",
+    "query": "credit risk early warning",
+    "file": "data/pdfs/0279_Corporate_Credit_Rating_Solutions_-_A_Combined_Study_of_Quantitat.pdf",
+    "sha256": "80abf030c357126a9f777470fe52070ef0a6b9fd88e00c4ac304f56bc1ab1831"
+  },
+  {
+    "title": "Application of News Text Mining in Urban Credit Assessment: A Study Based on BERT and QDA-DTM Models",
+    "doi": "https://doi.org/10.54097/xazr9x31",
+    "year": 2025,
+    "url": "https://drpress.org/ojs/index.php/jid/article/download/31464/30813",
+    "license": "cc-by-nc",
+    "query": "credit risk early warning",
+    "file": "data/pdfs/0281_Application_of_News_Text_Mining_in_Urban_Credit_Assessment_A_Stu.pdf",
+    "sha256": "9d3518e66c8291f0dd1538cebad533b86a1fd77f0b21582cfa34f5d154192c73"
+  },
+  {
+    "title": "Credit Risk Evaluation of Real Estate Industry Based on GA-GARCH-KMV Model",
+    "doi": "https://doi.org/10.54560/jracr.v13i4.413",
+    "year": 2024,
+    "url": "https://jracr.com/index.php/jracr/article/download/413/422",
+    "license": "cc-by-nc",
+    "query": "credit risk early warning",
+    "file": "data/pdfs/0289_Credit_Risk_Evaluation_of_Real_Estate_Industry_Based_on_GA-GARCH-.pdf",
+    "sha256": "87553d70676ff40fb70a39bef40fceff56f83db228c4c3bca1e11911e389d6ea"
+  },
+  {
+    "title": "A Systematic Literature Review on the Credit Risk Management of Big Tech Lending",
+    "doi": "https://doi.org/10.54560/jracr.v11i3.303",
+    "year": 2021,
+    "url": "https://www.jracr.com/index.php/jracr/article/download/303/348",
+    "license": "cc-by-nc",
+    "query": "credit risk early warning",
+    "file": "data/pdfs/0291_A_Systematic_Literature_Review_on_the_Credit_Risk_Management_of_B.pdf",
+    "sha256": "541adc85d4066bced9071c5c4327861406866621294ad6f4d401ddfec5f52a54"
+  },
+  {
+    "title": "Research on Early-warning and Countermeasures of Financial Risk in Universities",
+    "doi": "https://doi.org/10.2991/essaeme-17.2017.176",
+    "year": 2017,
+    "url": "https://download.atlantis-press.com/article/25880820.pdf",
+    "license": "cc-by-nc",
+    "query": "credit risk early warning",
+    "file": "data/pdfs/0292_Research_on_Early-warning_and_Countermeasures_of_Financial_Risk_i.pdf",
+    "sha256": "80d0d6e18d73f77ade7543841746c3979ff0c21e983e994ea40fd4352023b673"
+  },
+  {
+    "title": "Credit Risk, Liquidity, and Financial Stability: An Investigation in the Indonesian Banking Sector",
+    "doi": "https://doi.org/10.15408/etk.v25i1.44917",
+    "year": 2026,
+    "url": "https://journal.uinjkt.ac.id/etikonomi/article/download/44917/19198",
+    "license": "cc-by-sa",
+    "query": "credit risk early warning",
+    "file": "data/pdfs/0293_Credit_Risk_Liquidity_and_Financial_Stability_An_Investigation.pdf",
+    "sha256": "2ea9119827557c61fe0801fd07aeb43080ab6811f13307fc72494cd90a702a42"
+  },
+  {
+    "title": "Research on the Construction of Credit Risk Evaluation System of Foreign Trade Customers for a Foreign Trade Food Company",
+    "doi": "https://doi.org/10.2991/icemss-14.2014.88",
+    "year": 2014,
+    "url": "https://www.atlantis-press.com/article/13996.pdf",
+    "license": "cc-by-nc",
+    "query": "credit risk early warning",
+    "file": "data/pdfs/0294_Research_on_the_Construction_of_Credit_Risk_Evaluation_System_of_.pdf",
+    "sha256": "2d271d24c4ebbbac2d6b1d8299a55192b469efe055469865e48326cf96954bc3"
+  },
+  {
+    "title": "Innovative Risk Early Warning Model Based on Internet of Things Under Big Data Technology",
+    "doi": "https://doi.org/10.1109/access.2021.3095503",
+    "year": 2021,
+    "url": "https://ieeexplore.ieee.org/ielx7/6287639/9312710/09477607.pdf",
+    "license": "cc-by",
+    "query": "credit risk early warning",
+    "file": "data/pdfs/0298_Innovative_Risk_Early_Warning_Model_Based_on_Internet_of_Things_U.pdf",
+    "sha256": "da132b6e16e0889632cc462240a7336a26b6bd9ff9ede37ba77c958eb35acb21"
+  },
+  {
+    "title": "A Consent-Gated Early-Warning Framework for Open Banking Credit Monitoring in Uzbekistan",
+    "doi": null,
+    "year": 2026,
+    "url": "https://www.globalresearchnetwork.us/index.php/ajebm/article/download/5334/4767",
+    "license": "cc-by",
+    "query": "credit risk early warning",
+    "file": "data/pdfs/0299_A_Consent-Gated_Early-Warning_Framework_for_Open_Banking_Credit_M.pdf",
+    "sha256": "6f6bae360ff6b9999cc938f8d4d317008cdf471f92defbedb75a15fbae4ba7e4"
+  },
+  {
+    "title": "A novel profit-based validity index approach for feature selection in credit risk prediction",
+    "doi": "https://doi.org/10.3934/math.2024049",
+    "year": 2023,
+    "url": "http://www.aimspress.com/aimspress-data/math/2024/1/PDF/math-09-01-049.pdf",
+    "license": "cc-by-nc-sa",
+    "query": "credit risk early warning",
+    "file": "data/pdfs/0301_A_novel_profit-based_validity_index_approach_for_feature_selectio.pdf",
+    "sha256": "a3e0f200aa623edd992900f01c5e88b33559f6f3926d759a37baf059bec43866"
+  }
+]

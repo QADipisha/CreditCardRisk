@@ -1,36 +1,26 @@
 .env
-*.crt
-*.pem
 __pycache__/
 .pytest_cache/
 .venv/
 venv/
-index/
-data/
 logs/
 *.sqlite3
 .ipynb_checkpoints/
 .DS_Store
 
 .env
-*.crt
-*.pem
 __pycache__/
 *.pyc
 index/*.faiss
 index/chunks.json
 
 .env
-*.crt
-*.pem
 __pycache__/
 *.pyc
 index/*.faiss
 index/chunks.json
 
 .env
-*.crt
-*.pem
 __pycache__/
 *.pyc
 index/*.faiss

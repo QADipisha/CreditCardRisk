@@ -1,0 +1,1498 @@
+[
+    {
+        "query": "What factors influence credit card acquisition and underwriting risk?",
+        "relevant_chunk_ids": [
+            82,
+            86,
+            350,
+            351,
+            363,
+            629,
+            676,
+            694,
+            695,
+            3528
+        ]
+    },
+    {
+        "query": "How can banks assess customer repayment capacity?",
+        "relevant_chunk_ids": [
+            118,
+            343,
+            363,
+            367,
+            373,
+            383,
+            384,
+            450,
+            2282,
+            2284,
+            4144,
+            4283,
+            4455,
+            4456,
+            4462
+        ]
+    },
+    {
+        "query": "What financial ratios are used in credit risk assessment?",
+        "relevant_chunk_ids": [
+            449,
+            1790,
+            4071,
+            4078,
+            4133,
+            4142,
+            4144,
+            4149,
+            4157,
+            4159,
+            4169,
+            4410,
+            4411,
+            4413
+        ]
+    },
+    {
+        "query": "How should debt-to-income ratio be evaluated during credit card underwriting?",
+        "relevant_chunk_ids": [
+            262,
+            583,
+            721,
+            1307,
+            1371,
+            1570,
+            1768,
+            1790,
+            1836,
+            2198
+        ]
+    },
+    {
+        "query": "How does monthly disposable income influence credit card eligibility?",
+        "relevant_chunk_ids": [
+            81,
+            82,
+            83,
+            262,
+            628,
+            629,
+            634,
+            635,
+            732,
+            1768
+        ]
+    },
+    {
+        "query": "How can existing loan obligations affect credit card approval decisions?",
+        "relevant_chunk_ids": [
+            83,
+            101,
+            334,
+            350,
+            564,
+            606,
+            1794,
+            2128,
+            4235
+        ]
+    },
+    {
+        "query": "What role does credit bureau history play in credit card underwriting?",
+        "relevant_chunk_ids": [
+            262,
+            564,
+            612,
+            708,
+            714,
+            1264,
+            2082,
+            3100,
+            3104,
+            4241
+        ]
+    },
+    {
+        "query": "How should previous credit card delinquencies influence new applications?",
+        "relevant_chunk_ids": [
+            3,
+            49,
+            51,
+            118,
+            569,
+            628,
+            2284
+        ]
+    },
+    {
+        "query": "How can banks evaluate applicants with limited credit histories?",
+        "relevant_chunk_ids": [
+            606,
+            1402,
+            1681,
+            1790,
+            1793,
+            2284,
+            4146,
+            4233,
+            4415,
+            4616
+        ]
+    },
+    {
+        "query": "What indicators help identify over-indebted credit card applicants?",
+        "relevant_chunk_ids": [
+            84,
+            87,
+            101,
+            320,
+            348,
+            359,
+            363,
+            450,
+            459,
+            606
+        ]
+    },
+    {
+        "query": "How does credit utilization history influence underwriting decisions?",
+        "relevant_chunk_ids": [
+            1264,
+            1778,
+            1779,
+            2073,
+            2284
+        ]
+    },
+    {
+        "query": "How can employment stability be considered in credit risk assessment?",
+        "relevant_chunk_ids": [
+            351,
+            1402,
+            1791,
+            4141
+        ]
+    },
+    {
+        "query": "How should banks assess self-employed credit card applicants?",
+        "relevant_chunk_ids": [
+            89,
+            262,
+            564,
+            592,
+            606,
+            721,
+            1642,
+            1681,
+            2284,
+            3110,
+            4146
+        ]
+    },
+    {
+        "query": "How does income volatility affect credit card repayment capacity?",
+        "relevant_chunk_ids": [
+            72,
+            81,
+            82,
+            83,
+            118,
+            334,
+            367,
+            383,
+            384,
+            1888,
+            2002,
+            2239,
+            2242
+        ]
+    },
+    {
+        "query": "What is the relationship between credit score and probability of default?",
+        "relevant_chunk_ids": [
+            362,
+            565,
+            581,
+            582,
+            583,
+            584,
+            2094,
+            2168,
+            2210,
+            2288,
+            4655,
+            4670
+        ]
+    },
+    {
+        "query": "How can banks assess applicants with multiple existing credit cards?",
+        "relevant_chunk_ids": [
+            89,
+            564,
+            606,
+            1681,
+            1790,
+            1793,
+            2284,
+            3069,
+            3098,
+            3110
+        ]
+    },
+    {
+        "query": "What alternative data can support responsible credit card underwriting?",
+        "relevant_chunk_ids": [
+            364,
+            1261,
+            1396,
+            1398,
+            3104,
+            4174,
+            4234,
+            4629
+        ]
+    },
+    {
+        "query": "How should banks evaluate applicants with irregular income?",
+        "relevant_chunk_ids": [
+            1681,
+            1768,
+            1790,
+            1991,
+            2075,
+            2128,
+            4146
+        ]
+    },
+    {
+        "query": "What factors indicate potential credit card application fraud?",
+        "relevant_chunk_ids": [
+            589,
+            3272,
+            3273,
+            3274,
+            3275,
+            3285,
+            3288,
+            3315,
+            3412,
+            3528,
+            3529,
+            3530,
+            3532,
+            3534
+        ]
+    },
+    {
+        "query": "How can banks identify inconsistencies in declared income and financial obligations?",
+        "relevant_chunk_ids": [
+            343,
+            4140,
+            4617,
+            4621,
+            4623,
+            4624
+        ]
+    },
+    {
+        "query": "What is the importance of affordability assessment in responsible lending?",
+        "relevant_chunk_ids": [
+            1681,
+            1791,
+            1834,
+            1835,
+            1837,
+            4140,
+            4411
+        ]
+    },
+    {
+        "query": "How can banks estimate the probability of default for new credit card applicants?",
+        "relevant_chunk_ids": [
+            3,
+            101,
+            234,
+            308,
+            346,
+            361,
+            363,
+            562,
+            564,
+            565,
+            568,
+            2284,
+            4670
+        ]
+    },
+    {
+        "query": "How should credit card underwriting policies account for different customer risk segments?",
+        "relevant_chunk_ids": [
+            262,
+            379,
+            708,
+            1260,
+            1261,
+            1263,
+            1264,
+            1266,
+            1267,
+            1272,
+            1276,
+            3108,
+            3111,
+            4357
+        ]
+    },
+    {
+        "query": "What are the key differences between thin-file and thick-file credit applicants?",
+        "relevant_chunk_ids": [
+            2103,
+            2104,
+            2150,
+            2151,
+            2217,
+            4236,
+            4240,
+            4245
+        ]
+    },
+    {
+        "query": "What responsible lending practices should banks follow during credit card acquisition?",
+        "relevant_chunk_ids": [
+            262,
+            695,
+            1411,
+            1681,
+            1812,
+            1834,
+            1835,
+            1838
+        ]
+    },
+    {
+        "query": "What methods can banks use to monitor credit card portfolios?",
+        "relevant_chunk_ids": [
+            294,
+            590,
+            787,
+            868,
+            874,
+            1267,
+            3067,
+            3097,
+            3098,
+            3111,
+            3114,
+            3298,
+            3532,
+            3760,
+            4256
+        ]
+    },
+    {
+        "query": "How does credit card delinquency affect overall portfolio risk?",
+        "relevant_chunk_ids": [
+            3,
+            118,
+            247,
+            248,
+            262,
+            319,
+            334,
+            350,
+            379,
+            569,
+            1267,
+            4318
+        ]
+    },
+    {
+        "query": "Which key performance indicators should be monitored in a credit card portfolio?",
+        "relevant_chunk_ids": [
+            256,
+            335,
+            336,
+            340,
+            448,
+            450,
+            506,
+            3000,
+            4324,
+            4329,
+            4330,
+            4356,
+            4357,
+            4631
+        ]
+    },
+    {
+        "query": "How can banks monitor monthly changes in credit card spending?",
+        "relevant_chunk_ids": [
+            3,
+            83,
+            84,
+            450,
+            712,
+            1264,
+            2668,
+            3111,
+            4617
+        ]
+    },
+    {
+        "query": "What does an increase in portfolio utilization indicate?",
+        "relevant_chunk_ids": [
+            1267,
+            3816,
+            4304,
+            4305
+        ]
+    },
+    {
+        "query": "How should banks monitor outstanding credit card balances?",
+        "relevant_chunk_ids": [
+            117,
+            348,
+            564,
+            3004,
+            4292,
+            4297,
+            4298,
+            4301,
+            4617,
+            4630
+        ]
+    },
+    {
+        "query": "How can banks identify customers whose balances are growing faster than their repayments?",
+        "relevant_chunk_ids": [
+            101,
+            256,
+            343,
+            383,
+            384,
+            1993
+        ]
+    },
+    {
+        "query": "What is the significance of payment-to-balance ratios in portfolio monitoring?",
+        "relevant_chunk_ids": [
+            82,
+            361,
+            450,
+            4331
+        ]
+    },
+    {
+        "query": "How can banks track changes in customer repayment behavior?",
+        "relevant_chunk_ids": [
+            84,
+            118,
+            256,
+            343,
+            367,
+            383,
+            450,
+            4241,
+            4287,
+            4617
+        ]
+    },
+    {
+        "query": "What are the key metrics used to monitor credit card portfolio quality?",
+        "relevant_chunk_ids": [
+            110,
+            333,
+            389,
+            394,
+            468,
+            506,
+            520,
+            612,
+            2919,
+            3004,
+            3617,
+            4324,
+            4329,
+            4330,
+            4356
+        ]
+    },
+    {
+        "query": "How can roll-rate analysis identify deterioration in credit card portfolios?",
+        "relevant_chunk_ids": [
+            3,
+            234,
+            348,
+            350,
+            450,
+            3097,
+            4288,
+            4306,
+            4307,
+            4308
+        ]
+    },
+    {
+        "query": "What is the importance of monitoring delinquency buckets?",
+        "relevant_chunk_ids": [
+            118,
+            262,
+            420,
+            433,
+            1324,
+            1329,
+            1526,
+            4041,
+            4326,
+            4327,
+            4333,
+            4357
+        ]
+    },
+    {
+        "query": "How should banks monitor migration from current accounts to 30-day delinquency?",
+        "relevant_chunk_ids": [
+            10,
+            118,
+            4041,
+            4047,
+            4357,
+            4617,
+            4626,
+            4630
+        ]
+    },
+    {
+        "query": "How can vintage analysis help assess credit card portfolio performance?",
+        "relevant_chunk_ids": [
+            335,
+            363,
+            592,
+            593,
+            605,
+            1267,
+            3101,
+            3108,
+            3111,
+            3135
+        ]
+    },
+    {
+        "query": "What is the role of cohort analysis in credit card portfolio monitoring?",
+        "relevant_chunk_ids": [
+            1267,
+            3080,
+            4331
+        ]
+    },
+    {
+        "query": "How can banks monitor portfolio-level credit utilization trends?",
+        "relevant_chunk_ids": [
+            3,
+            343,
+            1264,
+            1403,
+            3110,
+            3111,
+            4288,
+            4304,
+            4308,
+            4324,
+            4330,
+            4331,
+            4357,
+            4616,
+            4617
+        ]
+    },
+    {
+        "query": "What indicators help identify deterioration in customer repayment capacity?",
+        "relevant_chunk_ids": [
+            256,
+            343,
+            363,
+            383,
+            384,
+            450,
+            504,
+            2568,
+            4283,
+            4287,
+            4288,
+            4306,
+            4327,
+            4356
+        ]
+    },
+    {
+        "query": "How can banks monitor changes in minimum payment behavior?",
+        "relevant_chunk_ids": [
+            118,
+            262,
+            367,
+            450,
+            2413,
+            2961,
+            4287,
+            4617
+        ]
+    },
+    {
+        "query": "What is the relationship between payment rates and portfolio credit risk?",
+        "relevant_chunk_ids": [
+            3,
+            354,
+            1267,
+            1889,
+            1902,
+            1904,
+            4141,
+            4301,
+            4318,
+            4321,
+            4547
+        ]
+    },
+    {
+        "query": "How can banks identify high-risk customer segments within a credit card portfolio?",
+        "relevant_chunk_ids": [
+            3,
+            256,
+            257,
+            399,
+            1261,
+            1263,
+            1264,
+            1266,
+            1267,
+            1270,
+            1272,
+            3080,
+            4304,
+            4307,
+            4639
+        ]
+    },
+    {
+        "query": "How should portfolio concentration risk be monitored?",
+        "relevant_chunk_ids": [
+            506,
+            1473,
+            4040,
+            4296,
+            4304,
+            4308,
+            4321,
+            4327,
+            4356,
+            4357,
+            4363,
+            4617
+        ]
+    },
+    {
+        "query": "How can banks evaluate the impact of economic changes on credit card portfolios?",
+        "relevant_chunk_ids": [
+            3,
+            118,
+            247,
+            334,
+            335,
+            344,
+            695,
+            1006,
+            1991,
+            2021,
+            2029,
+            2226,
+            4549
+        ]
+    },
+    {
+        "query": "What is the role of stress testing in credit card portfolio management?",
+        "relevant_chunk_ids": [
+            346,
+            506,
+            712,
+            1267,
+            4033
+        ]
+    },
+    {
+        "query": "How can banks monitor credit card charge-off and loss rates?",
+        "relevant_chunk_ids": [
+            118,
+            564,
+            565,
+            741,
+            3004,
+            3048,
+            3069,
+            3097,
+            3106,
+            3111,
+            3747,
+            4617
+        ]
+    },
+    {
+        "query": "What dashboards and metrics are useful for ongoing credit card portfolio surveillance?",
+        "relevant_chunk_ids": [
+            1178,
+            1180,
+            3004,
+            4329,
+            4357
+        ]
+    },
+    {
+        "query": "What are the early warning indicators of credit card default?",
+        "relevant_chunk_ids": [
+            318,
+            331,
+            4076,
+            4077,
+            4081,
+            4083,
+            4092,
+            4244,
+            4281,
+            4288,
+            4306,
+            4325,
+            4333,
+            4604
+        ]
+    },
+    {
+        "query": "How can increasing credit card spending indicate financial stress?",
+        "relevant_chunk_ids": [
+            81,
+            118,
+            334,
+            357,
+            384,
+            650,
+            2242,
+            4283
+        ]
+    },
+    {
+        "query": "What transaction patterns indicate possible payment difficulties?",
+        "relevant_chunk_ids": [
+            602,
+            1126,
+            2320,
+            2966,
+            2973,
+            3300,
+            3383,
+            3412,
+            3647,
+            3758,
+            3759
+        ]
+    },
+    {
+        "query": "How can repeated minimum payments signal financial distress?",
+        "relevant_chunk_ids": [
+            118,
+            262,
+            357,
+            399,
+            450,
+            1719,
+            4288,
+            4411,
+            4617
+        ]
+    },
+    {
+        "query": "Why is a sudden increase in credit utilization an early warning sign?",
+        "relevant_chunk_ids": [
+            3982,
+            4081,
+            4083,
+            4281,
+            4288,
+            4305,
+            4306,
+            4308,
+            4312,
+            4357
+        ]
+    },
+    {
+        "query": "How can missed or late payments predict future credit card delinquency?",
+        "relevant_chunk_ids": [
+            10,
+            46,
+            118,
+            261,
+            262,
+            348,
+            357,
+            359,
+            363,
+            571,
+            596,
+            602,
+            2092
+        ]
+    },
+    {
+        "query": "What does repeated payment failure indicate about customer repayment capacity?",
+        "relevant_chunk_ids": [
+            118,
+            256,
+            357,
+            382,
+            383,
+            384,
+            450,
+            571,
+            1904,
+            4624,
+            4652
+        ]
+    },
+    {
+        "query": "How can returned or bounced payments be used as early warning indicators?",
+        "relevant_chunk_ids": [
+            4281,
+            4284,
+            4286,
+            4288,
+            4306,
+            4308,
+            4333,
+            4357
+        ]
+    },
+    {
+        "query": "What patterns in cash advances may indicate financial stress?",
+        "relevant_chunk_ids": [
+            334,
+            384,
+            2530,
+            2690,
+            2891,
+            4283,
+            4318,
+            4630
+        ]
+    },
+    {
+        "query": "How can a sudden decline in payment amounts signal credit deterioration?",
+        "relevant_chunk_ids": [
+            357,
+            359,
+            450,
+            4287,
+            4288,
+            4293,
+            4303,
+            4306,
+            4307,
+            4308
+        ]
+    },
+    {
+        "query": "What does consistently increasing revolving balances indicate?",
+        "relevant_chunk_ids": [
+            384,
+            564,
+            582,
+            735,
+            740,
+            1778,
+            1779
+        ]
+    },
+    {
+        "query": "How can multiple over-limit events signal emerging credit risk?",
+        "relevant_chunk_ids": [
+            363,
+            407,
+            450,
+            3098,
+            4168,
+            4174,
+            4306,
+            4312
+        ]
+    },
+    {
+        "query": "What is the significance of a sudden increase in declined transactions?",
+        "relevant_chunk_ids": [
+            359,
+            2021,
+            2223,
+            3074
+        ]
+    },
+    {
+        "query": "How can changes in transaction frequency indicate unusual customer behavior?",
+        "relevant_chunk_ids": [
+            1904,
+            2297,
+            2319,
+            2695,
+            3022,
+            3057,
+            3063,
+            3065,
+            3129,
+            3208,
+            3299,
+            3300,
+            3412
+        ]
+    },
+    {
+        "query": "What spending patterns may indicate financial distress?",
+        "relevant_chunk_ids": [
+            1161,
+            1187,
+            2910,
+            3100,
+            3101,
+            3102,
+            3105,
+            3111,
+            3117,
+            3647,
+            4288,
+            4411
+        ]
+    },
+    {
+        "query": "How can rising utilization combined with falling payments indicate default risk?",
+        "relevant_chunk_ids": [
+            3,
+            82,
+            269,
+            359,
+            361,
+            384,
+            602
+        ]
+    },
+    {
+        "query": "What are the warning signs of customers relying heavily on cash advances?",
+        "relevant_chunk_ids": [
+            101,
+            677,
+            4288
+        ]
+    },
+    {
+        "query": "How can increasing external debt obligations indicate credit card repayment stress?",
+        "relevant_chunk_ids": [
+            118,
+            334,
+            384,
+            566,
+            1888,
+            2242,
+            4283,
+            4453
+        ]
+    },
+    {
+        "query": "How should banks detect repeated payment reversals?",
+        "relevant_chunk_ids": [
+            2952,
+            3057,
+            3082,
+            3208,
+            3258,
+            3259,
+            3300,
+            3754,
+            4624
+        ]
+    },
+    {
+        "query": "How can changes in salary-credit patterns indicate potential repayment problems?",
+        "relevant_chunk_ids": [
+            256,
+            343,
+            359,
+            383,
+            384,
+            450,
+            2223,
+            4283,
+            4287,
+            4306
+        ]
+    },
+    {
+        "query": "What is the relationship between multiple credit inquiries and emerging credit risk?",
+        "relevant_chunk_ids": [
+            2094,
+            3069,
+            4306,
+            4312
+        ]
+    },
+    {
+        "query": "How can banks identify customers transitioning from healthy repayment to financial distress?",
+        "relevant_chunk_ids": [
+            117,
+            118,
+            343,
+            363,
+            383,
+            384,
+            450,
+            1719,
+            4288,
+            4309,
+            4468,
+            4621,
+            4639
+        ]
+    },
+    {
+        "query": "What behavioral indicators can predict credit card delinquency?",
+        "relevant_chunk_ids": [
+            10,
+            46,
+            248,
+            318,
+            348,
+            352,
+            401,
+            450,
+            602,
+            606
+        ]
+    },
+    {
+        "query": "How can early warning models identify customers at risk of rolling into 30-day delinquency?",
+        "relevant_chunk_ids": [
+            4034,
+            4092,
+            4288,
+            4333,
+            4356,
+            4357,
+            4413,
+            4467,
+            4590,
+            4604,
+            4606,
+            4607,
+            4608
+        ]
+    },
+    {
+        "query": "What actions should banks consider when early warning indicators suggest elevated customer risk?",
+        "relevant_chunk_ids": [
+            3982,
+            3984,
+            3996,
+            4034,
+            4076,
+            4077,
+            4083,
+            4281,
+            4288,
+            4305,
+            4308,
+            4309,
+            4321,
+            4357,
+            4467
+        ]
+    },
+    {
+        "query": "What factors should banks consider when assigning initial credit card limits?",
+        "relevant_chunk_ids": [
+            70,
+            72,
+            82,
+            83,
+            84,
+            262,
+            350,
+            354,
+            361,
+            564,
+            566,
+            721,
+            734
+        ]
+    },
+    {
+        "query": "How can banks determine appropriate credit limits based on customer income?",
+        "relevant_chunk_ids": [
+            262,
+            343,
+            399,
+            721,
+            732,
+            734,
+            2282,
+            2284
+        ]
+    },
+    {
+        "query": "How should debt-to-income ratio influence credit line assignment?",
+        "relevant_chunk_ids": [
+            721,
+            1307,
+            1330,
+            1371,
+            1570,
+            1790,
+            1799,
+            1836,
+            1883,
+            2245,
+            4169,
+            4453
+        ]
+    },
+    {
+        "query": "What indicators should be considered before increasing a customer's credit limit?",
+        "relevant_chunk_ids": [
+            82,
+            117,
+            254,
+            262,
+            350,
+            384,
+            450,
+            566,
+            721,
+            4083,
+            4209,
+            4639
+        ]
+    },
+    {
+        "query": "When should banks consider reducing an existing credit card limit?",
+        "relevant_chunk_ids": [
+            70,
+            379,
+            566,
+            721,
+            1267,
+            3289
+        ]
+    },
+    {
+        "query": "How can customer repayment behavior influence credit limit reviews?",
+        "relevant_chunk_ids": [
+            72,
+            82,
+            84,
+            118,
+            256,
+            343,
+            356,
+            383,
+            384,
+            399,
+            401,
+            450,
+            2284
+        ]
+    },
+    {
+        "query": "What is the relationship between credit utilization and credit line management?",
+        "relevant_chunk_ids": [
+            357,
+            446,
+            582,
+            2223,
+            2284
+        ]
+    },
+    {
+        "query": "How can banks identify customers who may be overexposed to credit?",
+        "relevant_chunk_ids": [
+            84,
+            101,
+            117,
+            118,
+            217,
+            343,
+            356,
+            363,
+            367,
+            450,
+            606,
+            4288,
+            4639
+        ]
+    },
+    {
+        "query": "What risk factors should prevent an automatic credit limit increase?",
+        "relevant_chunk_ids": [
+            82,
+            118,
+            262,
+            343,
+            344,
+            350,
+            351,
+            384,
+            566,
+            1267,
+            4143,
+            4308,
+            4320,
+            4321
+        ]
+    },
+    {
+        "query": "How should banks manage credit limits for customers with deteriorating repayment behavior?",
+        "relevant_chunk_ids": [
+            84,
+            117,
+            118,
+            256,
+            343,
+            367,
+            383,
+            399,
+            450,
+            566,
+            606,
+            4283,
+            4288,
+            4616,
+            4617
+        ]
+    },
+    {
+        "query": "How can banks use transaction data to support credit line decisions?",
+        "relevant_chunk_ids": [
+            606,
+            1178,
+            2952,
+            2961,
+            3098,
+            3132,
+            4241,
+            4617,
+            4629
+        ]
+    },
+    {
+        "query": "What role does affordability assessment play in credit limit increases?",
+        "relevant_chunk_ids": [
+            401,
+            721,
+            1267,
+            1389,
+            1790,
+            2110
+        ]
+    },
+    {
+        "query": "How should credit line management account for changes in customer income?",
+        "relevant_chunk_ids": [
+            89,
+            262,
+            450,
+            1793,
+            1836,
+            2223,
+            4652
+        ]
+    },
+    {
+        "query": "What are the risks of granting excessive credit limits?",
+        "relevant_chunk_ids": [
+            343,
+            350,
+            379,
+            384,
+            450,
+            566,
+            1010,
+            1123,
+            2243,
+            2245,
+            4235,
+            4522,
+            4592,
+            4639
+        ]
+    },
+    {
+        "query": "How can banks identify unused credit lines that create potential exposure?",
+        "relevant_chunk_ids": [
+            4288
+        ]
+    },
+    {
+        "query": "How should banks manage credit limits for customers with repeated over-limit transactions?",
+        "relevant_chunk_ids": [
+            343,
+            356,
+            450,
+            566,
+            606,
+            721,
+            2282,
+            3082,
+            3208,
+            3259,
+            4616
+        ]
+    },
+    {
+        "query": "What factors should be considered when reviewing temporary credit limit requests?",
+        "relevant_chunk_ids": [
+            72,
+            82,
+            83,
+            84,
+            350,
+            394,
+            564,
+            3760,
+            4083,
+            4143
+        ]
+    },
+    {
+        "query": "How can banks use early warning indicators to trigger credit line reviews?",
+        "relevant_chunk_ids": [
+            3982,
+            3984,
+            3994,
+            3996,
+            4040,
+            4048,
+            4077,
+            4081,
+            4082,
+            4083,
+            4281,
+            4288,
+            4308,
+            4357,
+            4617
+        ]
+    },
+    {
+        "query": "What is the impact of credit limit reductions on customer utilization?",
+        "relevant_chunk_ids": [
+            82,
+            334,
+            343,
+            350,
+            379,
+            384,
+            450,
+            727,
+            2228,
+            2246
+        ]
+    },
+    {
+        "query": "How can banks manage credit line exposure across customers with multiple credit products?",
+        "relevant_chunk_ids": [
+            118,
+            363,
+            367,
+            606,
+            695,
+            1262,
+            1263,
+            1267,
+            2282,
+            3093
+        ]
+    },
+    {
+        "query": "How should banks evaluate credit limit increase requests from high-utilization customers?",
+        "relevant_chunk_ids": [
+            343,
+            384,
+            399,
+            606,
+            721,
+            1264,
+            1267,
+            2284
+        ]
+    },
+    {
+        "query": "What controls are required for automated credit limit management?",
+        "relevant_chunk_ids": [
+            343,
+            401,
+            3984,
+            3990,
+            3992,
+            3993,
+            4040
+        ]
+    },
+    {
+        "query": "How can banks balance customer spending needs with credit risk when setting limits?",
+        "relevant_chunk_ids": [
+            3,
+            117,
+            118,
+            343,
+            379,
+            399,
+            566,
+            721,
+            1267,
+            2282,
+            3111,
+            4467,
+            4616,
+            4639
+        ]
+    },
+    {
+        "query": "What monitoring triggers should initiate a credit line reassessment?",
+        "relevant_chunk_ids": [
+            3990,
+            3995,
+            3996,
+            4040,
+            4048,
+            4049,
+            4244,
+            4356,
+            4357,
+            4361,
+            4628,
+            4630,
+            4631
+        ]
+    },
+    {
+        "query": "How can banks design a risk-based credit line management framework?",
+        "relevant_chunk_ids": [
+            606,
+            1267,
+            3000,
+            3984,
+            4004,
+            4018,
+            4024,
+            4117,
+            4121,
+            4132,
+            4245,
+            4308,
+            4413,
+            4521,
+            4617
+        ]
+    }
+]
