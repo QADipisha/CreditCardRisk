@@ -11,3 +11,11 @@ logs/
 *.sqlite3
 .ipynb_checkpoints/
 .DS_Store
+
+.env
+*.crt
+*.pem
+__pycache__/
+*.pyc
+index/*.faiss
+index/chunks.json

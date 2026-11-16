@@ -1,12 +1,21 @@
-"""Create a gold set with relevant chunk IDs after inspecting the corpus.
-Run after build_knowledge_base.py; evaluation is deliberately separate from answer scoring."""
+"""Evaluate retrieval performance using the generated gold retrieval set."""
 import json
-from creditcopilot.retrieval import HybridRAG,retrieval_recall_at_k
-rag=HybridRAG(); rag.load()
-# Replace examples with manually judged relevant chunk IDs from index/chunks.json.
-gold=[
- {"query":"credit card underwriting affordability and income verification","relevant_chunk_ids":[]},
- {"query":"early warning indicators for rising credit card spend and payment stress","relevant_chunk_ids":[]},
-]
-print("Recall@5:",retrieval_recall_at_k(gold,rag,k=5))
-print("Populate relevant_chunk_ids using expert-labelled chunk IDs; empty labels are not a valid evaluation.")
+import os
+from creditcopilot.retrieval import HybridRAG, retrieval_recall_at_k
+
+rag = HybridRAG(folder="index")
+rag.load()
+
+gold_path = "data/gold_retrieval_set.json"
+if not os.path.exists(gold_path):
+    raise FileNotFoundError(f"Could not find {gold_path}. Run your judge evaluation script first.")
+
+with open(gold_path, "r", encoding="utf-8") as f:
+    gold = json.load(f)
+
+valid_gold = [g for g in gold if g.get("relevant_chunk_ids")]
+print(f"Loaded {len(valid_gold)} labeled queries from {gold_path}.")
+
+for k in [5, 10, 15]:
+    score = retrieval_recall_at_k(valid_gold, rag, k=k)
+    print(f"Recall@{k}: {score:.4f} ({score * 100:.2f}%)")
