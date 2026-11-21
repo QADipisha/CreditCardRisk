@@ -1,0 +1,302 @@
+[
+  {
+    "case_id": "GOLD-01",
+    "task": "acquisition",
+    "profile": {
+      "monthly_net_income": 38000.0,
+      "monthly_debt_obligations": 3945.0,
+      "estimated_new_card_minimum_payment": 1370.49,
+      "monthly_expenses": 12091.0,
+      "requested_or_proposed_limit": 45683.0,
+      "transactions": []
+    },
+    "expected_outcome": "approve",
+    "required_checks": [
+      "Current DTI (10.38%) and post-card DTI (13.99%) are within acceptable limits",
+      "Healthy post-card net free cash buffer (20593.51)",
+      "Income (38000.0) meets >= 80% of proposed credit limit (45683.0) at 83.18%",
+      "Flags missing bureau score / income verification for human underwriter review"
+    ],
+    "gold_standard_report": "Applicant shows manageable leverage with current DTI of 10.38% and post-card DTI of 13.99%, leaving a positive monthly cash buffer of 20593.51. Monthly net income (38000.0) is 83.18% of the requested 45683.0 limit. Affordability supports approval subject to human review of bureau score and income proof."
+  },
+  {
+    "case_id": "GOLD-02",
+    "task": "acquisition",
+    "profile": {
+      "monthly_net_income": 76000.0,
+      "monthly_debt_obligations": 7851.0,
+      "estimated_new_card_minimum_payment": 1837.77,
+      "monthly_expenses": 16167.0,
+      "requested_or_proposed_limit": 61259.0,
+      "transactions": []
+    },
+    "expected_outcome": "approve",
+    "required_checks": [
+      "Current DTI (10.33%) and post-card DTI (12.75%) are within acceptable limits",
+      "Healthy post-card net free cash buffer (50144.23)",
+      "Income (76000.0) meets >= 80% of proposed credit limit (61259.0) at 124.06%",
+      "Flags missing bureau score / income verification for human underwriter review"
+    ],
+    "gold_standard_report": "Applicant shows manageable leverage with current DTI of 10.33% and post-card DTI of 12.75%, leaving a positive monthly cash buffer of 50144.23. Monthly net income (76000.0) is 124.06% of the requested 61259.0 limit. Affordability supports approval subject to human review of bureau score and income proof."
+  },
+  {
+    "case_id": "GOLD-03",
+    "task": "acquisition",
+    "profile": {
+      "monthly_net_income": 54000.0,
+      "monthly_debt_obligations": 5973.0,
+      "estimated_new_card_minimum_payment": 1175.52,
+      "monthly_expenses": 14803.0,
+      "requested_or_proposed_limit": 39184.0,
+      "transactions": []
+    },
+    "expected_outcome": "approve",
+    "required_checks": [
+      "Current DTI (11.06%) and post-card DTI (13.24%) are within acceptable limits",
+      "Healthy post-card net free cash buffer (32048.48)",
+      "Income (54000.0) meets >= 80% of proposed credit limit (39184.0) at 137.81%",
+      "Flags missing bureau score / income verification for human underwriter review"
+    ],
+    "gold_standard_report": "Applicant shows manageable leverage with current DTI of 11.06% and post-card DTI of 13.24%, leaving a positive monthly cash buffer of 32048.48. Monthly net income (54000.0) is 137.81% of the requested 39184.0 limit. Affordability supports approval subject to human review of bureau score and income proof."
+  },
+  {
+    "case_id": "GOLD-04",
+    "task": "acquisition",
+    "profile": {
+      "monthly_net_income": 39000.0,
+      "monthly_debt_obligations": 3901.0,
+      "estimated_new_card_minimum_payment": 1074.54,
+      "monthly_expenses": 9130.0,
+      "requested_or_proposed_limit": 35818.0,
+      "transactions": []
+    },
+    "expected_outcome": "approve",
+    "required_checks": [
+      "Current DTI (10.0%) and post-card DTI (12.76%) are within acceptable limits",
+      "Healthy post-card net free cash buffer (24894.46)",
+      "Income (39000.0) meets >= 80% of proposed credit limit (35818.0) at 108.88%",
+      "Flags missing bureau score / income verification for human underwriter review"
+    ],
+    "gold_standard_report": "Applicant shows manageable leverage with current DTI of 10.0% and post-card DTI of 12.76%, leaving a positive monthly cash buffer of 24894.46. Monthly net income (39000.0) is 108.88% of the requested 35818.0 limit. Affordability supports approval subject to human review of bureau score and income proof."
+  },
+  {
+    "case_id": "GOLD-05",
+    "task": "acquisition",
+    "profile": {
+      "monthly_net_income": 72000.0,
+      "monthly_debt_obligations": 7356.0,
+      "estimated_new_card_minimum_payment": 1602.06,
+      "monthly_expenses": 22322.0,
+      "requested_or_proposed_limit": 53402.0,
+      "transactions": []
+    },
+    "expected_outcome": "approve",
+    "required_checks": [
+      "Current DTI (10.22%) and post-card DTI (12.44%) are within acceptable limits",
+      "Healthy post-card net free cash buffer (40719.94)",
+      "Income (72000.0) meets >= 80% of proposed credit limit (53402.0) at 134.83%",
+      "Flags missing bureau score / income verification for human underwriter review"
+    ],
+    "gold_standard_report": "Applicant shows manageable leverage with current DTI of 10.22% and post-card DTI of 12.44%, leaving a positive monthly cash buffer of 40719.94. Monthly net income (72000.0) is 134.83% of the requested 53402.0 limit. Affordability supports approval subject to human review of bureau score and income proof."
+  },
+  {
+    "case_id": "GOLD-06",
+    "task": "acquisition",
+    "profile": {
+      "monthly_net_income": 43000.0,
+      "monthly_debt_obligations": 4812.0,
+      "estimated_new_card_minimum_payment": 1797.78,
+      "monthly_expenses": 11064.0,
+      "requested_or_proposed_limit": 59926.0,
+      "transactions": []
+    },
+    "expected_outcome": "decline",
+    "required_checks": [
+      "Identifies policy breach: Income less than 80% of proposed credit limit; Debt obligation plus minimum due exceeds 15% of income",
+      "Calculates current DTI (11.19%) and post-card DTI (15.37%)",
+      "Checks income (43000.0) against proposed limit (59926.0) (71.76%)",
+      "Recommends decline at requested limit and flags for human review"
+    ],
+    "gold_standard_report": "Recommend decline at the requested limit of 59926.0. Policy breach triggered: Income less than 80% of proposed credit limit; Debt obligation plus minimum due exceeds 15% of income. Current DTI is 11.19%, rising to 15.37% post-card, while income covers 71.76% of the proposed limit. Flagged for human reviewer sign-off or lower counter-offer consideration."
+  },
+  {
+    "case_id": "GOLD-07",
+    "task": "acquisition",
+    "profile": {
+      "monthly_net_income": 42000.0,
+      "monthly_debt_obligations": 4996.0,
+      "estimated_new_card_minimum_payment": 1390.89,
+      "monthly_expenses": 8573.0,
+      "requested_or_proposed_limit": 46363.0,
+      "transactions": []
+    },
+    "expected_outcome": "decline",
+    "required_checks": [
+      "Identifies policy breach: Debt obligation plus minimum due exceeds 15% of income",
+      "Calculates current DTI (11.9%) and post-card DTI (15.21%)",
+      "Checks income (42000.0) against proposed limit (46363.0) (90.59%)",
+      "Recommends decline at requested limit and flags for human review"
+    ],
+    "gold_standard_report": "Recommend decline at the requested limit of 46363.0. Policy breach triggered: Debt obligation plus minimum due exceeds 15% of income. Current DTI is 11.9%, rising to 15.21% post-card, while income covers 90.59% of the proposed limit. Flagged for human reviewer sign-off or lower counter-offer consideration."
+  },
+  {
+    "case_id": "GOLD-08",
+    "task": "acquisition",
+    "profile": {
+      "monthly_net_income": 48000.0,
+      "monthly_debt_obligations": 5697.0,
+      "estimated_new_card_minimum_payment": 1554.33,
+      "monthly_expenses": 13838.0,
+      "requested_or_proposed_limit": 51811.0,
+      "transactions": []
+    },
+    "expected_outcome": "decline",
+    "required_checks": [
+      "Identifies policy breach: Debt obligation plus minimum due exceeds 15% of income",
+      "Calculates current DTI (11.87%) and post-card DTI (15.11%)",
+      "Checks income (48000.0) against proposed limit (51811.0) (92.64%)",
+      "Recommends decline at requested limit and flags for human review"
+    ],
+    "gold_standard_report": "Recommend decline at the requested limit of 51811.0. Policy breach triggered: Debt obligation plus minimum due exceeds 15% of income. Current DTI is 11.87%, rising to 15.11% post-card, while income covers 92.64% of the proposed limit. Flagged for human reviewer sign-off or lower counter-offer consideration."
+  },
+  {
+    "case_id": "GOLD-09",
+    "task": "acquisition",
+    "profile": {
+      "monthly_net_income": 72000.0,
+      "monthly_debt_obligations": 8323.0,
+      "estimated_new_card_minimum_payment": 2987.64,
+      "monthly_expenses": 23821.0,
+      "requested_or_proposed_limit": 99588.0,
+      "transactions": []
+    },
+    "expected_outcome": "decline",
+    "required_checks": [
+      "Identifies policy breach: Income less than 80% of proposed credit limit; Debt obligation plus minimum due exceeds 15% of income",
+      "Calculates current DTI (11.56%) and post-card DTI (15.71%)",
+      "Checks income (72000.0) against proposed limit (99588.0) (72.3%)",
+      "Recommends decline at requested limit and flags for human review"
+    ],
+    "gold_standard_report": "Recommend decline at the requested limit of 99588.0. Policy breach triggered: Income less than 80% of proposed credit limit; Debt obligation plus minimum due exceeds 15% of income. Current DTI is 11.56%, rising to 15.71% post-card, while income covers 72.3% of the proposed limit. Flagged for human reviewer sign-off or lower counter-offer consideration."
+  },
+  {
+    "case_id": "GOLD-10",
+    "task": "acquisition",
+    "profile": {
+      "monthly_net_income": 32000.0,
+      "monthly_debt_obligations": 3802.0,
+      "estimated_new_card_minimum_payment": 1257.45,
+      "monthly_expenses": 9872.0,
+      "requested_or_proposed_limit": 41915.0,
+      "transactions": []
+    },
+    "expected_outcome": "decline",
+    "required_checks": [
+      "Identifies policy breach: Income less than 80% of proposed credit limit; Debt obligation plus minimum due exceeds 15% of income",
+      "Calculates current DTI (11.88%) and post-card DTI (15.81%)",
+      "Checks income (32000.0) against proposed limit (41915.0) (76.34%)",
+      "Recommends decline at requested limit and flags for human review"
+    ],
+    "gold_standard_report": "Recommend decline at the requested limit of 41915.0. Policy breach triggered: Income less than 80% of proposed credit limit; Debt obligation plus minimum due exceeds 15% of income. Current DTI is 11.88%, rising to 15.81% post-card, while income covers 76.34% of the proposed limit. Flagged for human reviewer sign-off or lower counter-offer consideration."
+  },
+  {
+    "case_id": "GOLD-11",
+    "task": "acquisition",
+    "profile": {
+      "monthly_net_income": 97000.0,
+      "monthly_debt_obligations": 10519.0,
+      "estimated_new_card_minimum_payment": 3967.11,
+      "monthly_expenses": 20251.0,
+      "requested_or_proposed_limit": 132237.0,
+      "transactions": []
+    },
+    "expected_outcome": "decline",
+    "required_checks": [
+      "Identifies policy breach: Income less than 80% of proposed credit limit",
+      "Calculates current DTI (10.84%) and post-card DTI (14.93%)",
+      "Checks income (97000.0) against proposed limit (132237.0) (73.35%)",
+      "Recommends decline at requested limit and flags for human review"
+    ],
+    "gold_standard_report": "Recommend decline at the requested limit of 132237.0. Policy breach triggered: Income less than 80% of proposed credit limit. Current DTI is 10.84%, rising to 14.93% post-card, while income covers 73.35% of the proposed limit. Flagged for human reviewer sign-off or lower counter-offer consideration."
+  },
+  {
+    "case_id": "GOLD-12",
+    "task": "acquisition",
+    "profile": {
+      "monthly_net_income": 39000.0,
+      "monthly_debt_obligations": 3454.0,
+      "estimated_new_card_minimum_payment": 1474.8,
+      "monthly_expenses": 10513.0,
+      "requested_or_proposed_limit": 49160.0,
+      "transactions": []
+    },
+    "expected_outcome": "decline",
+    "required_checks": [
+      "Identifies policy breach: Income less than 80% of proposed credit limit",
+      "Calculates current DTI (8.86%) and post-card DTI (12.64%)",
+      "Checks income (39000.0) against proposed limit (49160.0) (79.33%)",
+      "Recommends decline at requested limit and flags for human review"
+    ],
+    "gold_standard_report": "Recommend decline at the requested limit of 49160.0. Policy breach triggered: Income less than 80% of proposed credit limit. Current DTI is 8.86%, rising to 12.64% post-card, while income covers 79.33% of the proposed limit. Flagged for human reviewer sign-off or lower counter-offer consideration."
+  },
+  {
+    "case_id": "GOLD-13",
+    "task": "acquisition",
+    "profile": {
+      "monthly_net_income": 44000.0,
+      "monthly_debt_obligations": 4210.0,
+      "estimated_new_card_minimum_payment": 1746.54,
+      "monthly_expenses": 12706.0,
+      "requested_or_proposed_limit": 58218.0,
+      "transactions": []
+    },
+    "expected_outcome": "decline",
+    "required_checks": [
+      "Identifies policy breach: Income less than 80% of proposed credit limit",
+      "Calculates current DTI (9.57%) and post-card DTI (13.54%)",
+      "Checks income (44000.0) against proposed limit (58218.0) (75.58%)",
+      "Recommends decline at requested limit and flags for human review"
+    ],
+    "gold_standard_report": "Recommend decline at the requested limit of 58218.0. Policy breach triggered: Income less than 80% of proposed credit limit. Current DTI is 9.57%, rising to 13.54% post-card, while income covers 75.58% of the proposed limit. Flagged for human reviewer sign-off or lower counter-offer consideration."
+  },
+  {
+    "case_id": "GOLD-14",
+    "task": "acquisition",
+    "profile": {
+      "monthly_net_income": 86000.0,
+      "monthly_debt_obligations": 8266.0,
+      "estimated_new_card_minimum_payment": 3569.97,
+      "monthly_expenses": 23876.0,
+      "requested_or_proposed_limit": 118999.0,
+      "transactions": []
+    },
+    "expected_outcome": "decline",
+    "required_checks": [
+      "Identifies policy breach: Income less than 80% of proposed credit limit",
+      "Calculates current DTI (9.61%) and post-card DTI (13.76%)",
+      "Checks income (86000.0) against proposed limit (118999.0) (72.27%)",
+      "Recommends decline at requested limit and flags for human review"
+    ],
+    "gold_standard_report": "Recommend decline at the requested limit of 118999.0. Policy breach triggered: Income less than 80% of proposed credit limit. Current DTI is 9.61%, rising to 13.76% post-card, while income covers 72.27% of the proposed limit. Flagged for human reviewer sign-off or lower counter-offer consideration."
+  },
+  {
+    "case_id": "GOLD-15",
+    "task": "acquisition",
+    "profile": {
+      "monthly_net_income": 79000.0,
+      "monthly_debt_obligations": 8073.0,
+      "estimated_new_card_minimum_payment": 3282.9,
+      "monthly_expenses": 24279.0,
+      "requested_or_proposed_limit": 109430.0,
+      "transactions": []
+    },
+    "expected_outcome": "decline",
+    "required_checks": [
+      "Identifies policy breach: Income less than 80% of proposed credit limit",
+      "Calculates current DTI (10.22%) and post-card DTI (14.37%)",
+      "Checks income (79000.0) against proposed limit (109430.0) (72.19%)",
+      "Recommends decline at requested limit and flags for human review"
+    ],
+    "gold_standard_report": "Recommend decline at the requested limit of 109430.0. Policy breach triggered: Income less than 80% of proposed credit limit. Current DTI is 10.22%, rising to 14.37% post-card, while income covers 72.19% of the proposed limit. Flagged for human reviewer sign-off or lower counter-offer consideration."
+  }
+]

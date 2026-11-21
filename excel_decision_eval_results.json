@@ -1,0 +1,50 @@
+[
+  {
+    "row_id": 1,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.92,
+    "judge_reason": "Both the Gold decision and the agent's assessment conclude that the applicant should be approved, despite concerns about the high credit limit relative to income and missing data. The agent's report provides detailed analysis supporting the approval decision, aligning closely with the Gold decision."
+  },
+  {
+    "row_id": 2,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.92,
+    "judge_reason": "Both the Gold decision and the agent's assessment conclude that the credit should be approved, with the agent providing detailed support for the decision based on debt-to-income ratios, discretionary income, and risk mitigation strategies. The agent also highlights potential risks and suggests mitigants, aligning with the Gold decision's approval."
+  },
+  {
+    "row_id": 3,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.92,
+    "judge_reason": "Both the Gold decision and the agent-generated assessment indicate approval, with the agent providing detailed financial metrics supporting the decision. The Gold decision lacks specific reasons for approval, while the agent report offers comprehensive analysis, though with missing data and untrusted citations. The high agreement score reflects alignment in the approval outcome despite differences in depth and evidence quality."
+  },
+  {
+    "row_id": 4,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.92,
+    "judge_reason": "Both the Gold decision and the agent's assessment align in approving the credit request based on the debt-to-income ratio and free cash flow. The agent's report provides detailed analysis supporting the approval, with minor concerns about credit history and transaction data, which are not present in the Gold decision."
+  },
+  {
+    "row_id": 5,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.92,
+    "judge_reason": "Both the Gold decision and the agent's assessment indicate approval, with the agent providing detailed support for the decision based on debt-to-income ratios, free cash flow, and affordability of minimum payments. The score reflects strong alignment in the final decision and reasoning, though the agent highlights missing data that could affect a more comprehensive evaluation."
+  },
+  {
+    "row_id": 6,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.92,
+    "judge_reason": "Both the Gold decision and the agent-generated assessment approve the credit application based on the debt-to-income ratio and cash flow analysis. The agent report provides additional context on risks and mitigants, which aligns with the Gold decision's approval, though it highlights missing data and potential concerns."
+  }
+]
