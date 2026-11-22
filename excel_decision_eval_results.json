@@ -4,47 +4,3065 @@
     "gold_decision": "approve",
     "predicted_decision": "approve",
     "judge_agreement": true,
-    "judge_score": 0.92,
-    "judge_reason": "Both the Gold decision and the agent's assessment conclude that the applicant should be approved, despite concerns about the high credit limit relative to income and missing data. The agent's report provides detailed analysis supporting the approval decision, aligning closely with the Gold decision."
+    "judge_score": 0.88,
+    "judge_reason": "The AI accurately calculated DTI and cash flow but missed some risk signals in transaction data and did not fully align the high credit limit with income in the decision rationale.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 19,
+      "alignment": 24
+    }
   },
   {
     "row_id": 2,
     "gold_decision": "approve",
     "predicted_decision": "approve",
     "judge_agreement": true,
-    "judge_score": 0.92,
-    "judge_reason": "Both the Gold decision and the agent's assessment conclude that the credit should be approved, with the agent providing detailed support for the decision based on debt-to-income ratios, discretionary income, and risk mitigation strategies. The agent also highlights potential risks and suggests mitigants, aligning with the Gold decision's approval."
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated the debt-to-income ratio and assessed financial capacity, but missed some risk signals due to missing credit history data, and aligned well with the gold decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
   },
   {
     "row_id": 3,
-    "gold_decision": "approve",
-    "predicted_decision": "approve",
-    "judge_agreement": true,
-    "judge_score": 0.92,
-    "judge_reason": "Both the Gold decision and the agent-generated assessment indicate approval, with the agent providing detailed financial metrics supporting the decision. The Gold decision lacks specific reasons for approval, while the agent report offers comprehensive analysis, though with missing data and untrusted citations. The high agreement score reflects alignment in the approval outcome despite differences in depth and evidence quality."
+    "gold_decision": "decline",
+    "predicted_decision": "decline",
+    "judge_agreement": false,
+    "judge_score": 0.9,
+    "judge_reason": "The AI agent accurately evaluates income, debt obligations, and minimum payments, aligns with lending policy rules, identifies key risk signals, and maintains logical consistency between financial risk and the decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 21,
+      "alignment": 24
+    }
   },
   {
     "row_id": 4,
     "gold_decision": "approve",
     "predicted_decision": "approve",
     "judge_agreement": true,
-    "judge_score": 0.92,
-    "judge_reason": "Both the Gold decision and the agent's assessment align in approving the credit request based on the debt-to-income ratio and free cash flow. The agent's report provides detailed analysis supporting the approval, with minor concerns about credit history and transaction data, which are not present in the Gold decision."
+    "judge_score": 0.87,
+    "judge_reason": "The AI demonstrates strong mathematical accuracy in evaluating DTI and cash flow, aligns with lending policies, but misses some risk signals in transaction data and credit bureau completeness.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
   },
   {
     "row_id": 5,
-    "gold_decision": "approve",
+    "gold_decision": "decline",
     "predicted_decision": "approve",
     "judge_agreement": true,
-    "judge_score": 0.92,
-    "judge_reason": "Both the Gold decision and the agent's assessment indicate approval, with the agent providing detailed support for the decision based on debt-to-income ratios, free cash flow, and affordability of minimum payments. The score reflects strong alignment in the final decision and reasoning, though the agent highlights missing data that could affect a more comprehensive evaluation."
+    "judge_score": 0.79,
+    "judge_reason": "The AI demonstrates strong mathematical accuracy in calculating DTI and cash flow but lacks thoroughness in citing policy rules and identifying potential risk signals, leading to a misalignment with the human decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 20,
+      "risk_analysis": 18,
+      "alignment": 18
+    }
   },
   {
     "row_id": 6,
+    "gold_decision": "decline",
+    "predicted_decision": "decline",
+    "judge_agreement": false,
+    "judge_score": 0.9,
+    "judge_reason": "The AI accurately identified the DTI issue but could have more thoroughly analyzed the cash-flow impact and risk signals, while the decision aligns with the gold decision but lacks deeper justification for the decline.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 24,
+      "alignment": 21
+    }
+  },
+  {
+    "row_id": 7,
     "gold_decision": "approve",
     "predicted_decision": "approve",
     "judge_agreement": true,
-    "judge_score": 0.92,
-    "judge_reason": "Both the Gold decision and the agent-generated assessment approve the credit application based on the debt-to-income ratio and cash flow analysis. The agent report provides additional context on risks and mitigants, which aligns with the Gold decision's approval, though it highlights missing data and potential concerns."
+    "judge_score": 0.87,
+    "judge_reason": "The AI correctly identified a favorable DTI and sufficient cash flow, but missed some risk signals in transaction data and did not fully align with lending policy nuances.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 8,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and cash flow but missed some risk signals due to missing credit data, while aligning well with the approval decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 9,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated the DTI ratio and highlighted strong financial responsibility, but missed some risk signals in the transaction data and did not fully align the decision with all lending policy considerations.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 10,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI demonstrates strong mathematical accuracy in evaluating DTI and cash flow but misses some risk signals and lacks detailed citation of policy rules.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 11,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.89,
+    "judge_reason": "The AI accurately evaluates DTI and cash flow, aligns with lending policies, identifies low risk, and logically justifies the approval decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 20,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 12,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and cash flow but missed some risk signals and made assumptions about missing data, though the decision aligns with the gold standard.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 13,
+    "gold_decision": "decline",
+    "predicted_decision": "decline",
+    "judge_agreement": false,
+    "judge_score": 0.9,
+    "judge_reason": "The AI accurately identified high credit limit relative to income and lack of credit history as key risks, with strong math and risk evaluation, though some assumptions were not explicitly cited.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 24,
+      "alignment": 21
+    }
+  },
+  {
+    "row_id": 14,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI demonstrates strong mathematical accuracy in calculating free cash flow and DTI, aligns with lending policy by noting the DTI is within acceptable limits, identifies some risk signals (slightly high DTI), and maintains logical consistency between the applicant's financial profile and the approval decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 15,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.89,
+    "judge_reason": "The AI correctly identified a low DTI and strong cash flow, aligned with the approval decision, but missed some risk signals and made assumptions about credit history not explicitly cited.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 20,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 16,
+    "gold_decision": "decline",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.77,
+    "judge_reason": "The AI's evaluation shows reasonable math on DTI and cash flow but misses key risk signals like high credit limit relative to income and potential overextension, misaligning with the human decision to decline.",
+    "judge_sub_scores": {
+      "math": 21,
+      "citations": 20,
+      "risk_analysis": 18,
+      "alignment": 18
+    }
+  },
+  {
+    "row_id": 17,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and cash flow but missed some risk signals and made assumptions about credit history not explicitly cited in the data.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 18,
+    "gold_decision": "decline",
+    "predicted_decision": "decline",
+    "judge_agreement": false,
+    "judge_score": 0.9,
+    "judge_reason": "The AI correctly identified the income-to-limit mismatch and highlighted missing credit data, but the math and citations could be more precise, and the alignment between financial risk and decision could be stronger.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 24,
+      "alignment": 21
+    }
+  },
+  {
+    "row_id": 19,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and cash flow but missed some risk signals due to lack of transaction data and credit score, while aligning well with the approval decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 20,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and cash flow metrics, aligned with lending policies, identified potential risks from lack of credit history, and logically justified the approval decision based on strong income and cash flow.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 24,
+      "risk_analysis": 18,
+      "alignment": 22
+    }
+  },
+  {
+    "row_id": 21,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and disposable income but missed some risk signals and had limited data alignment with lending policies.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 22,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated the debt-to-income ratio and identified strong cash flow, but missed some risk signals in the transaction history and did not fully align the credit limit with the applicant's financial profile.",
+    "judge_sub_scores": {
+      "math": 24,
+      "citations": 23,
+      "risk_analysis": 18,
+      "alignment": 22
+    }
+  },
+  {
+    "row_id": 23,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.86,
+    "judge_reason": "The AI demonstrates strong mathematical accuracy in evaluating DTI and cash flow but lacks sufficient citation of policy rules and misses key risk signals like missing credit history.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 21,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 24,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated the debt-to-income ratio and identified strong financial capacity, but missed some risk signals due to missing data and made assumptions about payment history.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 25,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and cash flow but missed some risk signals in transaction data and did not fully align the financial stability with the credit limit request.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 26,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and cash flow but missed some risk signals in the transaction data and did not fully align the financial risk with the approval decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 27,
+    "gold_decision": "decline",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.71,
+    "judge_reason": "The AI's math_score reflects accurate DTI and cash-flow calculations, but the citation_score is low due to lack of explicit policy alignment. The risk_score is weak as it misses key risk signals, and the alignment_score is moderate due to inconsistency between the high-risk profile and the approval decision.",
+    "judge_sub_scores": {
+      "math": 21,
+      "citations": 18,
+      "risk_analysis": 15,
+      "alignment": 17
+    }
+  },
+  {
+    "row_id": 28,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and obligations-to-income ratios, correctly identified free cash flow, and aligned the decision with the applicant's financial profile, though it missed some risk signals in the transaction data.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 29,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and cash flow metrics, aligned with lending policies, identified some risk signals due to missing data, and logically justified the approval decision based on financial stability.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 30,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI demonstrates strong mathematical accuracy in DTI and cash-flow calculations but misses some risk signals and fabricates assumptions about credit history, with logical consistency between financial risk and the approval decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 31,
+    "gold_decision": "decline",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.8,
+    "judge_reason": "The AI agent demonstrates strong mathematical accuracy in calculating free cash flow and debt ratios but misses key risk signals such as the high proposed credit limit relative to income and potential over-leverage, leading to a misalignment with the human decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 21,
+      "risk_analysis": 18,
+      "alignment": 18
+    }
+  },
+  {
+    "row_id": 32,
+    "gold_decision": "decline",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.77,
+    "judge_reason": "The AI agent demonstrates strong math accuracy in evaluating DTI and cash flow but misses key risk signals in transaction data and fails to fully align with the human decision due to incomplete data analysis.",
+    "judge_sub_scores": {
+      "math": 21,
+      "citations": 20,
+      "risk_analysis": 18,
+      "alignment": 18
+    }
+  },
+  {
+    "row_id": 33,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.86,
+    "judge_reason": "The AI accurately calculated free cash flow and DTI but missed key risk signals like missing credit score and employment status, and partially aligned the decision with the financial profile.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 21,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 34,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.89,
+    "judge_reason": "The AI accurately calculated DTI and cash flow metrics, aligned with lending policies, identified low risk signals, and logically connected financial stability to the approval decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 20,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 35,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI correctly identified a low DTI and strong cash flow, aligned with the approval decision, but missed some risk signals and made assumptions about credit history not explicitly cited.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 36,
+    "gold_decision": "decline",
+    "predicted_decision": "decline",
+    "judge_agreement": false,
+    "judge_score": 0.9,
+    "judge_reason": "The AI agent accurately evaluated DTI and cash flow, identified high credit limit relative to income, and aligned with lending policy, though some risk signals could have been more thoroughly explored.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 21,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 37,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.9,
+    "judge_reason": "The AI agent accurately calculated DTI and cash flow metrics, aligned with lending policies, identified minimal risk signals, and logically connected the applicant's financial stability to the approval decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 24,
+      "risk_analysis": 21,
+      "alignment": 22
+    }
+  },
+  {
+    "row_id": 38,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and cash flow but missed some risk signals due to missing bureau data, while aligning well with the gold decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 39,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI demonstrates strong mathematical accuracy in DTI and cash-flow evaluation but misses some risk signals and lacks detailed citation of policy rules.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 40,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI correctly identified strong income and low DTI, but missed some risk signals in transaction data and did not fully align with lending policy rules.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 41,
+    "gold_decision": "decline",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.8,
+    "judge_reason": "The AI accurately calculated DTI and free cash but missed key risk signals like missing credit score and employment status, and the decision aligns with the financial profile but conflicts with the gold decision due to incomplete data.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 21,
+      "risk_analysis": 18,
+      "alignment": 18
+    }
+  },
+  {
+    "row_id": 42,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and liquidity metrics, aligned with lending policies, identified missing credit data as a risk, and logically justified the approval decision based on financial strength.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 43,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.89,
+    "judge_reason": "The AI accurately calculated DTI and cash flow but missed some risk signals and partially aligned the decision with the applicant's financial profile.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 20,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 44,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and cash-flow metrics, aligned with lending policies, identified some missing data points, and logically supported the approval decision based on the applicant's financial stability.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 45,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and cash flow but missed some risk signals and made assumptions about credit history without sufficient justification.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 46,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.88,
+    "judge_reason": "The AI accurately evaluates DTI and cash flow but could better address missing data and overextension risks, with a generally consistent alignment between financial profile and decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 19,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 47,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and free cash flow but missed some risk signals in the transactions data and made a minor assumption about payment history.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 48,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated the debt-to-income ratio and identified potential for responsible credit use, but missed some risk signals due to missing bureau/credit data.",
+    "judge_sub_scores": {
+      "math": 22,
+      "citations": 23,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 49,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.89,
+    "judge_reason": "The AI agent accurately calculated DTI and cash flow metrics, aligned with lending policies, identified low risk signals, and logically justified the approval decision based on the applicant's financial profile.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 20,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 50,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.9,
+    "judge_reason": "The AI demonstrates strong mathematical accuracy in calculating DTI and cash flow, aligns with lending policies, identifies minimal risk signals, and logically justifies the approval decision based on the applicant's financial profile.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 21,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 51,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI correctly identified a low DTI and positive cash flow, but missed some risk signals related to the lack of credit history and high requested limit, while aligning well with the approval decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 52,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and cash flow but missed some risk signals and did not fully align with lending policy rules.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 53,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.89,
+    "judge_reason": "The AI accurately evaluated DTI and cash flow but missed some risk signals and made assumptions about transaction history without explicit citation.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 20,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 54,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated the debt-to-income ratio and cash flow, aligned with lending policies, identified manageable credit limits, but missed some risk signals in transaction data.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 55,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI correctly identified a low DTI and strong cash flow, but missed some risk signals and made assumptions about missing data without proper citation.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 56,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI correctly identified strong cash flow and a manageable debt-to-income ratio but missed key risk signals from missing credit history and score data, and partially aligned the decision with the gold standard.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 57,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI ratios and highlighted financial stability, but missed some risk signals due to missing transaction data and made assumptions without explicit policy alignment.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 58,
+    "gold_decision": "decline",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.8,
+    "judge_reason": "The AI's math is mostly accurate but misses key risk signals in the credit limit request and lacks alignment with the human decision to decline.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 21,
+      "risk_analysis": 18,
+      "alignment": 18
+    }
+  },
+  {
+    "row_id": 59,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and cash flow but missed some risk signals and made assumptions about transaction history without explicit data.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 60,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.9,
+    "judge_reason": "The AI accurately calculated DTI and identified strong liquidity, but missed some subtle risk signals and made a minor assumption about credit behavior without explicit data.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 21,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 61,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI demonstrates strong mathematical accuracy in evaluating DTI and cash flow, aligns with lending policies, identifies some risk signals from missing data, and maintains logical consistency between financial risk and the approval decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 62,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.86,
+    "judge_reason": "The AI accurately calculated DTI and cash flow but missed key risk signals and fabricated assumptions about credit history and employment, while aligning well with the approval decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 21,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 63,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI demonstrates strong mathematical accuracy in evaluating DTI and cash flow but misses some risk signals and lacks detailed citation of policy rules.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 64,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI correctly identified a low DTI and strong cash flow but missed some risk signals and made assumptions without sufficient data support.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 65,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI correctly identified a strong financial position with a low DTI and substantial free cash, but missed some risk signals in transaction data and could have better aligned the decision with policy rules.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 66,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI demonstrates strong mathematical accuracy in calculating DTI and cash flow, aligns with lending policy by avoiding fabricated assumptions, identifies some risk signals but misses key bureau data, and logically justifies the approval decision based on the applicant's financial profile.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 67,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and cash flow metrics, aligned with lending policies, identified some missing data but missed key risk signals, and logically supported the approval decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 68,
+    "gold_decision": "decline",
+    "predicted_decision": "decline",
+    "judge_agreement": false,
+    "judge_score": 0.9,
+    "judge_reason": "The AI correctly identified income as less than 80% of the proposed credit limit, demonstrating accurate math and alignment with lending policy, though some risk signals could have been more thoroughly explored.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 21,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 69,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.84,
+    "judge_reason": "The AI accurately evaluated DTI and cash flow but missed some risk signals and relied on incomplete data, requiring human review for final decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 21,
+      "risk_analysis": 18,
+      "alignment": 22
+    }
+  },
+  {
+    "row_id": 70,
+    "gold_decision": "decline",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.71,
+    "judge_reason": "The AI's math_score is high due to accurate DTI and cash-flow calculations, but citation_score is lower due to lack of explicit policy alignment. Risk_score is moderate as it misses key anomalies, and alignment_score is slightly off due to inconsistency between financial stability and the declined human decision.",
+    "judge_sub_scores": {
+      "math": 21,
+      "citations": 18,
+      "risk_analysis": 15,
+      "alignment": 17
+    }
+  },
+  {
+    "row_id": 71,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI correctly identified a strong income-to-debt ratio and sufficient cash flow, but missed some risk signals due to missing bureau/credit data and made minimal assumptions without explicit policy alignment.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 72,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated the debt-to-income ratio and identified strong cash flow, but missed some risk signals in the transaction data and did not fully align the credit limit with the applicant's financial profile.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 73,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and free cash flow but missed some risk signals in the transaction data and did not fully align the high credit limit with the applicant's income profile.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 74,
+    "gold_decision": "decline",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.8,
+    "judge_reason": "The AI's math is mostly accurate but misses key risk signals like high monthly expenses relative to income and potential cash-flow strain, while the decision aligns with the financial profile but overlooks critical risk factors.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 21,
+      "risk_analysis": 18,
+      "alignment": 18
+    }
+  },
+  {
+    "row_id": 75,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and cash flow metrics, aligned with lending policies, identified some risk signals like missing credit data, and logically supported the approval decision with strong financial indicators.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 76,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated the debt-to-income ratio and identified strong financial health, but missed some risk signals in transaction data and could have better aligned the decision with policy nuances.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 77,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and cash flow but missed some risk signals and fabricated assumptions about credit history, while maintaining logical consistency with the approval decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 78,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and free cash flow but missed some key risk signals and failed to cite critical missing data points, resulting in a cautious approval despite significant gaps in the applicant's financial profile.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 79,
+    "gold_decision": "decline",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.8,
+    "judge_reason": "The AI's math_score is high due to accurate DTI and cash-flow calculations, but the citation_score is slightly lower due to some assumptions not fully aligned with lending policy. The risk_score is moderate as it misses some potential risk signals, and the alignment_score reflects a reasonable match between financial risk and decision, though the human decision to decline suggests a gap in risk assessment.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 21,
+      "risk_analysis": 18,
+      "alignment": 18
+    }
+  },
+  {
+    "row_id": 80,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and disposable income, aligned with lending policies, identified some missing data but missed key risk signals, and logically supported the approval decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 81,
+    "gold_decision": "decline",
+    "predicted_decision": "decline",
+    "judge_agreement": false,
+    "judge_score": 0.9,
+    "judge_reason": "The AI agent accurately evaluates DTI and cash flow but could better cite specific policy rules, thoroughly identifies risk signals, and aligns the decision more closely with the applicant's financial risk profile.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 24,
+      "alignment": 21
+    }
+  },
+  {
+    "row_id": 82,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and identified strong financial responsibility, but missed some risk signals due to missing bureau data and made a minor assumption about payment behavior.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 83,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated the DTI and identified strong financial responsibility, but missed some risk signals and made assumptions about the applicant's credit history without sufficient data.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 84,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and cash flow but missed some risk signals and did not fully align the financial risk with the approval decision.",
+    "judge_sub_scores": {
+      "math": 24,
+      "citations": 23,
+      "risk_analysis": 18,
+      "alignment": 22
+    }
+  },
+  {
+    "row_id": 85,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately evaluates DTI and cash flow but misses some risk signals due to missing credit data, while aligning well with the approval decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 86,
+    "gold_decision": "decline",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.75,
+    "judge_reason": "The AI's math_score is high due to accurate DTI and cash-flow calculations, but citation_score is lower due to some assumptions not fully aligned with lending policy. Risk_score is moderate as some data gaps are noted, and alignment_score is slightly low due to inconsistency between the AI's approval decision and the human's decline, despite financial stability signals.",
+    "judge_sub_scores": {
+      "math": 21,
+      "citations": 18,
+      "risk_analysis": 19,
+      "alignment": 17
+    }
+  },
+  {
+    "row_id": 87,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.88,
+    "judge_reason": "The AI accurately evaluates DTI and cash flow but misses some risk signals due to incomplete data, and the decision aligns well with the applicant's financial profile.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 19,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 88,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI correctly calculated DTI ratios and identified strong financial capacity, but missed some risk signals due to missing credit bureau data and made a minor assumption about credit history.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 89,
+    "gold_decision": "decline",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.71,
+    "judge_reason": "The AI's math_score is high due to accurate DTI and cash-flow calculations, but the citation_score is lower due to assumptions about credit limit appropriateness not aligned with lending policy. The risk_score is moderate as it misses key risk signals like high credit limit relative to income. The alignment_score reflects a mismatch between the applicant's financial risk and the AI's approval decision.",
+    "judge_sub_scores": {
+      "math": 21,
+      "citations": 18,
+      "risk_analysis": 15,
+      "alignment": 17
+    }
+  },
+  {
+    "row_id": 90,
+    "gold_decision": "decline",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.74,
+    "judge_reason": "The AI agent demonstrates strong math skills in evaluating DTI and cash flow but lacks thorough risk assessment and proper alignment with lending policies, leading to a decision that conflicts with the gold standard.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 18,
+      "risk_analysis": 15,
+      "alignment": 18
+    }
+  },
+  {
+    "row_id": 91,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and cash flow, aligned with lending policies, identified strong financial position, but missed some risk signals due to missing bureau data.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 92,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately evaluates DTI and cash flow but misses some risk signals in transaction data and does not fully align with lending policy nuances.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 93,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI ratios and identified strong financial capacity, but missed some risk signals due to missing credit history data and made a minor assumption about the proposed credit limit's manageability.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 94,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI demonstrates strong mathematical accuracy in calculating DTI and discretionary income, aligns with lending policies, identifies some risk signals, and maintains logical consistency between financial risk and the approval decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 95,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and cash flow but missed some risk signals and introduced uncertainty due to missing credit data, while maintaining logical alignment with the approval decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 96,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI demonstrates strong mathematical accuracy in calculating DTI and cash flow, aligns with lending policies, identifies some risk signals but misses key credit data, and logically supports the approval decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 97,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.86,
+    "judge_reason": "The AI correctly identified a strong financial profile with a low DTI and high free cash flow, but missed key risk signals like missing credit score and employment status, and made some assumptions without explicit data support.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 21,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 98,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI correctly identified strong financial stability with a low debt-to-income ratio and substantial free cash flow, though it missed some risk signals due to incomplete credit history data.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 99,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.83,
+    "judge_reason": "The AI correctly identified a favorable DTI and sufficient cash flow, but missed some risk signals and made assumptions without sufficient data support.",
+    "judge_sub_scores": {
+      "math": 22,
+      "citations": 20,
+      "risk_analysis": 18,
+      "alignment": 23
+    }
+  },
+  {
+    "row_id": 100,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI demonstrates strong mathematical accuracy in evaluating DTI and cash flow but misses some risk signals and lacks detailed citation of policy rules.",
+    "judge_sub_scores": {
+      "math": 24,
+      "citations": 23,
+      "risk_analysis": 18,
+      "alignment": 22
+    }
+  },
+  {
+    "row_id": 101,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI demonstrates strong mathematical accuracy in calculating free cash and DTI, aligns with lending policy thresholds, identifies acceptable financial capacity, and maintains logical consistency with the approval decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 102,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.89,
+    "judge_reason": "The AI accurately calculated the debt-to-income ratio and identified strong financial capacity, but missed some risk signals and made assumptions about missing data.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 20,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 103,
+    "gold_decision": "decline",
+    "predicted_decision": "decline",
+    "judge_agreement": false,
+    "judge_score": 0.9,
+    "judge_reason": "The AI correctly identified the risk of overextending credit by comparing the proposed limit to monthly income, but missed some detailed financial ratios and risk signals in the analysis.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 24,
+      "alignment": 21
+    }
+  },
+  {
+    "row_id": 104,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI correctly identified strong free cash flow and a low debt-to-income ratio, but missed some risk signals due to missing bureau/credit data and made assumptions without explicit policy alignment.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 105,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.89,
+    "judge_reason": "The AI accurately calculated DTI and free cash flow, aligned with lending policies, identified minimal risk signals, and logically connected the applicant's financial stability to the approval decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 20,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 106,
+    "gold_decision": "decline",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.73,
+    "judge_reason": "The AI's math_score is high due to accurate DTI and cash-flow calculations, but citation_score is lower due to lack of explicit reference to lending policy rules. Risk_score is moderate as some risk signals are missed, and alignment_score is slightly below due to inconsistency between the strong financial profile and the human decision to decline.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 18,
+      "risk_analysis": 15,
+      "alignment": 17
+    }
+  },
+  {
+    "row_id": 107,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.88,
+    "judge_reason": "The AI demonstrates strong mathematical accuracy in calculating DTI and cash flow, aligns with lending policy by acknowledging credit history limitations, identifies some risk but misses deeper anomalies, and logically justifies the approval decision based on financial capacity.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 19,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 108,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI demonstrates strong mathematical accuracy in evaluating DTI and cash flow, aligns with lending policies, identifies some risk signals but misses key data, and logically justifies the approval decision based on the applicant's financial profile.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 109,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.9,
+    "judge_reason": "The AI accurately calculated DTI and cash flow but missed some key risk signals and failed to fully align the financial risk with the approval decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 21,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 110,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and cash flow but missed some risk signals in transaction data and did not fully align with lending policy nuances.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 111,
+    "gold_decision": "decline",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.71,
+    "judge_reason": "The AI's math_score is high due to accurate DTI and cash-flow calculations, but citation_score is lower due to lack of explicit policy rule alignment. Risk_score is moderate as it misses key risk signals, and alignment_score is slightly off as the AI's approval contradicts the human decline decision.",
+    "judge_sub_scores": {
+      "math": 21,
+      "citations": 18,
+      "risk_analysis": 15,
+      "alignment": 17
+    }
+  },
+  {
+    "row_id": 112,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.9,
+    "judge_reason": "The AI demonstrates strong mathematical accuracy in calculating DTI and discretionary income, aligns with lending policies by acknowledging uncertainty, and shows logical consistency between financial metrics and the approval decision, though it could better address missing credit data.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 21,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 113,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and cash flow but missed some risk signals and did not fully align with lending policy nuances.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 114,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and free cash flow, aligned with lending policies, identified some risk signals but missed key bureau data, and logically justified the approval decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 115,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and cash flow but missed some risk signals in credit history and employment data, while aligning well with the gold decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 116,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and cash flow but missed some risk signals like missing credit history, and the decision aligns well with the financial profile.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 117,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.9,
+    "judge_reason": "The AI demonstrates strong mathematical accuracy in DTI and cash-flow calculations, aligns with lending policy by staying under DTI thresholds, identifies some risk signals but misses potential anomalies, and maintains logical consistency between financial profile and approval decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 24,
+      "risk_analysis": 21,
+      "alignment": 22
+    }
+  },
+  {
+    "row_id": 118,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.9,
+    "judge_reason": "The AI accurately calculated DTI and cash flow metrics, aligned with lending policies, identified low risk signals, and logically connected financial metrics to the approval decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 24,
+      "risk_analysis": 21,
+      "alignment": 22
+    }
+  },
+  {
+    "row_id": 119,
+    "gold_decision": "decline",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.75,
+    "judge_reason": "The AI's math_score is high due to accurate DTI and income calculations, but citation_score is lower due to lack of explicit policy alignment. Risk_score is moderate as some data is missing, and alignment_score is low due to inconsistency between strong financial capacity and the declined human decision.",
+    "judge_sub_scores": {
+      "math": 21,
+      "citations": 18,
+      "risk_analysis": 19,
+      "alignment": 17
+    }
+  },
+  {
+    "row_id": 120,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.89,
+    "judge_reason": "The AI accurately calculated DTI and cash flow but missed some risk signals and made assumptions not explicitly supported by the data.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 20,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 121,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and free cash flow but missed some risk signals and introduced uncertainty due to missing data.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 122,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.89,
+    "judge_reason": "The AI accurately calculated DTI and cash flow metrics, aligned with lending policies, identified some risk signals from missing data, and logically supported the approval decision based on the applicant's financial profile.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 20,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 123,
+    "gold_decision": "decline",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.77,
+    "judge_reason": "The AI agent accurately calculated DTI and cash flow but failed to fully account for risk signals like missing bureau data and potential over-limit risk, leading to a misalignment with the human decision.",
+    "judge_sub_scores": {
+      "math": 21,
+      "citations": 18,
+      "risk_analysis": 20,
+      "alignment": 18
+    }
+  },
+  {
+    "row_id": 124,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.89,
+    "judge_reason": "The AI correctly identified a low DTI and strong cash flow, but missed some risk signals in the transaction data and made assumptions about credit stability without sufficient evidence.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 20,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 125,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI correctly identified a low debt-to-income ratio and stable income, but missed some risk signals due to missing bureau/credit data and made assumptions without explicit policy alignment.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 126,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.88,
+    "judge_reason": "The AI accurately calculated DTI and cash flow metrics, aligned with lending policies, identified minor risks, and logically supported the approval decision based on the applicant's financial profile.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 19,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 127,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.86,
+    "judge_reason": "The user has a manageable debt-to-income ratio (14.95%) and sufficient monthly free cash ($19,388.00) to cover the new card's minimum payment. While the proposed credit limit is close to their monthly income, the overall financial stability and low debt obligations suggest approval is appropriate.",
+    "judge_sub_scores": {
+      "math": 22,
+      "citations": 21,
+      "risk_analysis": 21,
+      "alignment": 22
+    }
+  },
+  {
+    "row_id": 128,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI correctly identified strong cash flow and no late payments, but missed some risk signals in the debt-to-income ratio and lacked thorough analysis of credit bureau data.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 129,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and cash flow but missed some risk signals due to missing credit data, while aligning well with the approval decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 130,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and cash flow but missed some risk signals and made assumptions about credit limit alignment without sufficient data.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 131,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI correctly identified strong financial capacity and low DTI, but missed key risk signals from missing credit history and score, and partially aligned with lending policy rules.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 132,
+    "gold_decision": "decline",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.72,
+    "judge_reason": "The AI's math is mostly accurate but misses key risk signals like high monthly expenses relative to income and potential over-leverage despite low DTI.",
+    "judge_sub_scores": {
+      "math": 21,
+      "citations": 18,
+      "risk_analysis": 15,
+      "alignment": 18
+    }
+  },
+  {
+    "row_id": 133,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI correctly identified strong income relative to debt and free cash flow, but missed some risk signals due to missing transaction history and credit score, while aligning well with the approval decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 134,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and cash flow but missed some risk signals in transaction data and credit bureau information, while maintaining logical consistency with the approval decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 135,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and cash flow metrics but missed some risk signals and fabricated assumptions about credit history, while maintaining logical consistency with the approval decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 136,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.86,
+    "judge_reason": "The user has a strong monthly net income, low debt-to-income ratio, and sufficient free cash flow to manage the proposed credit limit. No missed payments indicate responsible behavior, and the debt obligations remain within acceptable limits.",
+    "judge_sub_scores": {
+      "math": 22,
+      "citations": 21,
+      "risk_analysis": 21,
+      "alignment": 22
+    }
+  },
+  {
+    "row_id": 137,
+    "gold_decision": "decline",
+    "predicted_decision": "decline",
+    "judge_agreement": false,
+    "judge_score": 0.9,
+    "judge_reason": "The AI agent accurately evaluated DTI and cash flow, aligned with lending policies, identified high credit limit relative to income and lack of financial history as key risks, and logically connected these factors to the decline decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 24,
+      "alignment": 21
+    }
+  },
+  {
+    "row_id": 138,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI demonstrates strong mathematical accuracy in calculating DTI and cash flow, aligns with lending policy by referencing debt-to-income ratios, identifies some risk signals but misses key bureau data, and logically justifies the approval decision based on financial capacity.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 139,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI correctly identified low DTI and positive cash flow, aligned with the gold decision, but missed some risk signals and made assumptions without explicit citation.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 140,
+    "gold_decision": "decline",
+    "predicted_decision": "decline",
+    "judge_agreement": false,
+    "judge_score": 0.9,
+    "judge_reason": "The AI correctly identified the DTI ratio exceeding 15% and income below 80% of the proposed credit limit, with strong risk signal identification, though some assumptions were made without explicit citation.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 24,
+      "alignment": 21
+    }
+  },
+  {
+    "row_id": 141,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.89,
+    "judge_reason": "The AI accurately calculated DTI and cash flow metrics, aligned with lending policies, identified some risk signals like lack of transaction history, and logically justified the approval decision based on financial capacity.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 20,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 142,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI demonstrates strong mathematical accuracy in calculating DTI and free cash flow, aligns with lending policy by emphasizing income relative to credit limit, but misses key risk signals like missing credit history and score, and shows logical consistency between financial indicators and the approval decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 143,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately evaluates DTI and cash flow but misses some risk signals and does not fully align with lending policy nuances.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 144,
+    "gold_decision": "decline",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.77,
+    "judge_reason": "The AI agent demonstrates strong mathematical accuracy in evaluating DTI and cash flow but misses key risk signals and misaligns with the human decision due to overreliance on income without sufficient scrutiny of credit history and transaction patterns.",
+    "judge_sub_scores": {
+      "math": 21,
+      "citations": 20,
+      "risk_analysis": 18,
+      "alignment": 18
+    }
+  },
+  {
+    "row_id": 145,
+    "gold_decision": "decline",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.78,
+    "judge_reason": "The AI agent demonstrates strong math skills in calculating DTI and cash flow but misses key risk signals and misaligns with lending policy by approving a high-risk applicant.",
+    "judge_sub_scores": {
+      "math": 22,
+      "citations": 20,
+      "risk_analysis": 18,
+      "alignment": 18
+    }
+  },
+  {
+    "row_id": 146,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.86,
+    "judge_reason": "The AI accurately calculated DTI and cash flow but missed some key risk signals and fabricated assumptions about credit history, while aligning well with the approval decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 21,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 147,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.89,
+    "judge_reason": "The AI accurately calculated DTI and cash flow but missed some risk signals and made assumptions without explicit citation, though the decision aligns with the financial profile.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 20,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 148,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.86,
+    "judge_reason": "The AI accurately calculated DTI and free cash flow but missed critical risk signals like missing credit score and employment status, and partially aligned the decision with the financial profile despite data gaps.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 21,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 149,
+    "gold_decision": "decline",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.77,
+    "judge_reason": "The AI agent demonstrates strong mathematical analysis of DTI and cash flow but lacks alignment with the human decision due to insufficient risk signal identification and potential policy rule misalignment.",
+    "judge_sub_scores": {
+      "math": 21,
+      "citations": 18,
+      "risk_analysis": 20,
+      "alignment": 18
+    }
+  },
+  {
+    "row_id": 150,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and cash flow but missed some risk signals and did not fully align with lending policy nuances.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 151,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and cash flow metrics, aligned with lending policies, identified some risks but missed key data points, and logically supported the approval decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 152,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and free cash flow, aligned with lending policies, identified some risk signals from missing data, and logically justified the approval decision based on strong financial capacity.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 153,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.89,
+    "judge_reason": "The AI accurately calculated DTI and cash flow metrics, aligned with lending policies, identified some risks but missed key data points, and logically supported the approval decision based on financial stability.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 20,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 154,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated the debt-to-income ratio and free cash flow, aligned with lending policies, identified minimal risk signals, and logically supported the approval decision with strong financial stability indicators.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 155,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI correctly identified strong income relative to debt and significant free cash, but missed some risk signals due to missing transaction data and could have better aligned the decision with lending policy rules.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 156,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.89,
+    "judge_reason": "The AI accurately calculated DTI and cash flow metrics, aligned with lending policies, identified low risk signals, and logically justified the approval decision based on the applicant's financial profile.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 20,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 157,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and cash flow but missed some risk signals and fabricated assumptions about credit history, while the decision aligns with the applicant's financial profile.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 158,
+    "gold_decision": "decline",
+    "predicted_decision": "decline",
+    "judge_agreement": false,
+    "judge_score": 0.9,
+    "judge_reason": "The AI agent accurately calculated the DTI and identified income-to-limit mismatch, but could have more thoroughly analyzed the cash-flow and expense structure to better align with the human decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 24,
+      "alignment": 21
+    }
+  },
+  {
+    "row_id": 159,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and cash flow but missed some risk signals in transaction data and did not fully align with lending policy nuances.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 160,
+    "gold_decision": "decline",
+    "predicted_decision": "decline",
+    "judge_agreement": false,
+    "judge_score": 0.9,
+    "judge_reason": "The AI agent accurately calculated the income-to-credit-limit ratio and identified a potential risk, though it could have more thoroughly analyzed debt obligations and cash flow patterns.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 21,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 161,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI correctly identified strong financial metrics with a low DTI and substantial cash flow, but missed some risk signals due to missing bureau data and made assumptions without explicit policy alignment.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 162,
+    "gold_decision": "decline",
+    "predicted_decision": "decline",
+    "judge_agreement": false,
+    "judge_score": 0.9,
+    "judge_reason": "The AI correctly identifies income as a key factor in credit risk, but the math and citation scores are slightly lower due to minor inconsistencies in the threshold justification and incomplete risk signal analysis.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 21,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 163,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI correctly identified a strong financial position with a low DTI and substantial free cash, but missed some risk signals and made assumptions about credit history without explicit data.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 164,
+    "gold_decision": "decline",
+    "predicted_decision": "decline",
+    "judge_agreement": false,
+    "judge_score": 0.9,
+    "judge_reason": "The AI accurately identified the high debt-to-income ratio and lack of credit history, but could have more thoroughly analyzed the cash-flow dynamics and employment status alignment with the debt obligations.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 24,
+      "alignment": 21
+    }
+  },
+  {
+    "row_id": 165,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.86,
+    "judge_reason": "The user has a low debt-to-income ratio (10.2%) and substantial free cash flow ($49,619), indicating strong financial capacity. The proposed credit limit is manageable relative to income, and there is no history of late payments. While the credit limit is high, the user's financial stability supports approval.",
+    "judge_sub_scores": {
+      "math": 22,
+      "citations": 21,
+      "risk_analysis": 21,
+      "alignment": 22
+    }
+  },
+  {
+    "row_id": 166,
+    "gold_decision": "decline",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.8,
+    "judge_reason": "The AI correctly calculated DTI and free cash flow but overlooked key risk signals such as high credit limit relative to income and potential over-leverage, leading to a misalignment with the human decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 21,
+      "risk_analysis": 18,
+      "alignment": 18
+    }
+  },
+  {
+    "row_id": 167,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI demonstrates strong mathematical accuracy in evaluating DTI and cash flow but misses some risk signals and does not fully align with lending policy rules.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 168,
+    "gold_decision": "decline",
+    "predicted_decision": "decline",
+    "judge_agreement": false,
+    "judge_score": 0.9,
+    "judge_reason": "The AI agent accurately evaluated DTI and cash flow but missed some key data points and could have better aligned risk signals with the decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 24,
+      "alignment": 21
+    }
+  },
+  {
+    "row_id": 169,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and cash flow metrics but missed some risk signals in the credit data and made assumptions about payment history not explicitly stated in the profile.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 170,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately evaluates DTI and cash flow but misses some risk signals and does not fully align with the lending policy's emphasis on bureau data and transaction history.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 171,
+    "gold_decision": "decline",
+    "predicted_decision": "decline",
+    "judge_agreement": false,
+    "judge_score": 0.9,
+    "judge_reason": "The AI accurately calculated DTI and income-to-limit ratio but missed some risk signals and failed to fully align the financial risk with the decision logic.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 24,
+      "alignment": 21
+    }
+  },
+  {
+    "row_id": 172,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI correctly identified strong income-to-debt ratios and free cash flow, but missed some risk signals in transaction data and did not fully align with lending policy nuances.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 173,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI correctly calculated DTI and identified strong cash flow, but missed some risk signals in transaction data and made assumptions about credit limit appropriateness without explicit policy alignment.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 174,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.89,
+    "judge_reason": "The AI accurately calculated DTI and free cash flow, aligned with lending policies, identified credit utilization risks, and logically justified the approval decision based on financial flexibility.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 20,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 175,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and cash flow but missed some risk signals and made assumptions about employment status without sufficient data, while aligning well with the approval decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 176,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and cash flow but missed some risk signals due to missing credit data, while aligning well with the approval decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 177,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated the DTI ratio and identified low debt relative to income, but missed some risk signals in transaction data and did not fully align with lending policy nuances.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 178,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and free cash flow but missed some risk signals in the transaction data and did not fully address potential credit bureau gaps.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 179,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and free cash flow, aligned with lending policies, identified no major risk signals, and logically justified the approval decision based on financial stability.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 180,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI correctly identified strong debt management and low DTI, but missed some risk signals due to missing credit history data and made assumptions about payment behavior without explicit evidence.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 181,
+    "gold_decision": "decline",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.8,
+    "judge_reason": "The AI agent demonstrates strong mathematical accuracy in calculating DTI and cash flow but lacks sufficient citation of lending policy rules and fails to adequately address the risk of limited credit history and potential over-limit usage.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 18,
+      "risk_analysis": 21,
+      "alignment": 18
+    }
+  },
+  {
+    "row_id": 182,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and cash flow metrics, aligned with lending policies, identified no major risk signals, and logically supported the approval decision based on the applicant's financial profile.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 183,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI demonstrates strong mathematical accuracy in evaluating DTI and cash flow but misses some risk signals and lacks detailed citation of policy rules.",
+    "judge_sub_scores": {
+      "math": 24,
+      "citations": 23,
+      "risk_analysis": 18,
+      "alignment": 22
+    }
+  },
+  {
+    "row_id": 184,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and cash-flow metrics but missed some risk signals due to missing data points, while aligning well with the approval decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 185,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated the debt-to-income ratio and assessed liquidity, but missed some risk signals in transaction data and did not fully align the decision with the applicant's financial behavior.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 186,
+    "gold_decision": "decline",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.78,
+    "judge_reason": "The AI correctly identified strong cash flow and a manageable debt-to-income ratio but overlooked significant credit risk due to the lack of credit history and failed to align the decision with the human gold decision.",
+    "judge_sub_scores": {
+      "math": 22,
+      "citations": 20,
+      "risk_analysis": 18,
+      "alignment": 18
+    }
+  },
+  {
+    "row_id": 187,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI demonstrates strong mathematical accuracy in evaluating DTI and cash flow, aligns with lending policies, identifies minimal risk signals, and maintains logical consistency between financial risk and the approval decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 188,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.88,
+    "judge_reason": "The AI accurately evaluates DTI, disposable income, and cash flow with minor gaps in risk signal identification, while aligning well with the gold decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 19,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 189,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI demonstrates strong mathematical accuracy in calculating DTI and cash flow, aligns with lending policies, but misses some risk signals and has minor inconsistencies in aligning financial risk with the approval decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 24,
+      "risk_analysis": 18,
+      "alignment": 22
+    }
+  },
+  {
+    "row_id": 190,
+    "gold_decision": "decline",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.8,
+    "judge_reason": "The AI demonstrates strong mathematical analysis of income, debt, and cash flow but misses key risk signals in credit history and overestimates financial capacity relative to the human decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 21,
+      "risk_analysis": 18,
+      "alignment": 18
+    }
+  },
+  {
+    "row_id": 191,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated the debt-to-income ratio and cash flow but missed some risk signals in the transaction history and did not fully align the credit limit with the applicant's financial profile.",
+    "judge_sub_scores": {
+      "math": 24,
+      "citations": 23,
+      "risk_analysis": 18,
+      "alignment": 22
+    }
+  },
+  {
+    "row_id": 192,
+    "gold_decision": "decline",
+    "predicted_decision": "decline",
+    "judge_agreement": false,
+    "judge_score": 0.9,
+    "judge_reason": "The AI accurately identified high credit limit relative to income and lack of credit history as key risk factors, with minor gaps in mathematical precision and citation alignment.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 24,
+      "alignment": 21
+    }
+  },
+  {
+    "row_id": 193,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.83,
+    "judge_reason": "The AI demonstrates strong math accuracy in DTI and cash-flow evaluation but lacks sufficient citations for key assumptions, and misses some risk signals due to missing credit data.",
+    "judge_sub_scores": {
+      "math": 22,
+      "citations": 20,
+      "risk_analysis": 18,
+      "alignment": 23
+    }
+  },
+  {
+    "row_id": 194,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and cash flow but missed some risk signals and fabricated assumptions about credit history, while aligning well with the approval decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 195,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI demonstrates strong mathematical accuracy in evaluating DTI and cash flow but misses some risk signals in the transaction data and does not fully align with the lending policy's depth requirements.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 196,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and disposable income, aligned with lending policies, identified low risk signals but missed some bureau data, and logically justified the approval decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 197,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI demonstrates strong mathematical accuracy in evaluating DTI and cash flow but misses some risk signals and does not fully align the financial risk with the approval decision.",
+    "judge_sub_scores": {
+      "math": 24,
+      "citations": 23,
+      "risk_analysis": 18,
+      "alignment": 22
+    }
+  },
+  {
+    "row_id": 198,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and cash flow but missed some risk signals due to lack of credit history, and the decision aligns well with the financial profile.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 199,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated the DTI ratio and identified strong cash flow, but missed key risk signals like missing credit score and employment history, and partially aligned the decision with the financial profile.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 200,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.84,
+    "judge_reason": "The AI demonstrates strong mathematical evaluation of DTI and cash flow but cites incomplete and untrusted data, which affects the reliability of its risk assessment and alignment with lending policies.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 18,
+      "risk_analysis": 21,
+      "alignment": 22
+    }
+  },
+  {
+    "row_id": 201,
+    "gold_decision": "decline",
+    "predicted_decision": "decline",
+    "judge_agreement": false,
+    "judge_score": 0.9,
+    "judge_reason": "The AI agent accurately identified high credit limit relative to income and missing data, with strong risk signal detection, though some assumptions were made without explicit policy alignment.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 24,
+      "alignment": 21
+    }
+  },
+  {
+    "row_id": 202,
+    "gold_decision": "decline",
+    "predicted_decision": "decline",
+    "judge_agreement": false,
+    "judge_score": 0.9,
+    "judge_reason": "The AI agent accurately evaluates DTI and cash flow but could have cited specific policy rules more precisely, and it thoroughly identifies risk signals while maintaining logical consistency with the decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 21,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 203,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.89,
+    "judge_reason": "The AI correctly calculated DTI and cash flow but missed some risk signals and made assumptions about credit history that were not explicitly cited.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 20,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 204,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.86,
+    "judge_reason": "The AI accurately calculated DTI and cash flow but missed key credit data, showing reasonable alignment with the approval decision but lacking thorough risk assessment.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 21,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 205,
+    "gold_decision": "decline",
+    "predicted_decision": "decline",
+    "judge_agreement": false,
+    "judge_score": 0.9,
+    "judge_reason": "The AI agent accurately evaluated DTI and cash flow, aligned with lending policies, identified significant risk signals like high credit limit relative to income and lack of credit history, and logically connected financial risk to the decline decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 24,
+      "alignment": 21
+    }
+  },
+  {
+    "row_id": 206,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI demonstrates strong mathematical accuracy in evaluating DTI and cash flow but lacks thoroughness in addressing missing data and risk signals, while maintaining logical alignment with the approval decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 207,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI correctly identified strong cash flow and a low debt-to-income ratio, but missed some risk signals in the credit data and made assumptions about the credit limit relative to income without explicit policy alignment.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 208,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.9,
+    "judge_reason": "The AI accurately calculated DTI and cash flow metrics, aligned with lending policies, identified some risk signals but missed a few data points, and logically justified the approval decision based on financial stability.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 21,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 209,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and obligations-to-income ratios, aligned with lending policies, identified sufficient cash flow, but missed some risk signals due to missing transaction data.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 210,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately evaluates DTI and cash flow but misses some risk signals and lacks detailed citation of policy rules.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 211,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.88,
+    "judge_reason": "The AI demonstrates strong mathematical accuracy in calculating DTI and cash flow, aligns with lending policies, identifies some risk signals from missing data, and logically justifies the approval decision based on available information.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 19,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 212,
+    "gold_decision": "decline",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.71,
+    "judge_reason": "The AI's math_score is high due to accurate DTI and cash-flow calculations, but citation_score is lower due to lack of explicit policy alignment. Risk_score is moderate as it misses some potential anomalies, and alignment_score is slightly off due to discrepancy between AI and human decisions.",
+    "judge_sub_scores": {
+      "math": 21,
+      "citations": 18,
+      "risk_analysis": 15,
+      "alignment": 17
+    }
+  },
+  {
+    "row_id": 213,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and cash flow metrics but missed some risk signals due to missing credit and employment data, while aligning well with the approval decision.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 214,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI correctly identified a low DTI and positive cash flow but missed some risk signals and did not fully align the financial profile with the decision logic.",
+    "judge_sub_scores": {
+      "math": 24,
+      "citations": 23,
+      "risk_analysis": 18,
+      "alignment": 22
+    }
+  },
+  {
+    "row_id": 215,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI ratios and identified liquidity, but missed some risk signals and made assumptions about employment stability without sufficient data.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 216,
+    "gold_decision": "decline",
+    "predicted_decision": "decline",
+    "judge_agreement": false,
+    "judge_score": 0.9,
+    "judge_reason": "The AI agent accurately calculated the income-to-limit ratio but could have more explicitly cited lending policy rules and identified additional risk signals such as high debt obligations relative to income.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 24,
+      "alignment": 21
+    }
+  },
+  {
+    "row_id": 217,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated DTI and free cash flow, aligned with lending policies, identified some risk signals from missing transaction data, and logically supported the approval decision based on financial stability.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 218,
+    "gold_decision": "approve",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.87,
+    "judge_reason": "The AI accurately calculated the debt-to-income ratio and highlighted the strong financial position, but missed some risk signals due to missing credit data and oversimplified the risk assessment.",
+    "judge_sub_scores": {
+      "math": 23,
+      "citations": 22,
+      "risk_analysis": 18,
+      "alignment": 24
+    }
+  },
+  {
+    "row_id": 219,
+    "gold_decision": "decline",
+    "predicted_decision": "approve",
+    "judge_agreement": true,
+    "judge_score": 0.73,
+    "judge_reason": "The AI agent accurately calculated DTI and cash flow but failed to account for critical risk signals like missing credit history and employment data, leading to a misalignment with the human decision.",
+    "judge_sub_scores": {
+      "math": 22,
+      "citations": 18,
+      "risk_analysis": 15,
+      "alignment": 18
+    }
   }
 ]
