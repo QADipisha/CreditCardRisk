@@ -30,7 +30,7 @@ LIVE_JUDGE_SYSTEM = (
     "You are an independent senior credit risk auditor. Grade the AI Agent's report across 4 integer criteria "
     "(each scored strictly from 0 to 25 — use exact granular integers like 19, 21, 23, 24, NOT round multiples): "
     "1) math_score (0-25): accuracy of DTI, disposable income, and cash-flow calculations; "
-    "2) citation_score (0-25): accurate [S#] policy citations with zero fabricated rules; "
+    "2) citation_score (0-25): accurate [S#] policy citations matching Retrieved Source IDs with zero fabricated rules; "
     "3) risk_score (0-25): thoroughness in identifying risk signals, anomalies, and missing bureau/credit data; "
     "4) alignment_score (0-25): logical consistency between the financial risks and the final recommendation. "
     "Also classify the AI Agent's overall recommendation as 'approve' or 'decline'. "
@@ -220,14 +220,24 @@ def lookup_gold_record(profile: dict) -> dict | None:
 def score_single_report_with_judge(profile: dict, result: dict) -> dict:
     report = result.get("report", "")
     critic_ok = bool((result.get("critic") or {}).get("approved", True))
-    invalid_cites = len(result.get("invalid_citation_ids") or [])
+    invalid_cites_list = result.get("invalid_citation_ids") or []
+    invalid_cites = len(invalid_cites_list)
     revisions = int(result.get("revisions") or 0)
-    unique_cites = len(set(re.findall(r"\[S\d+\]", report)))
+    unique_cites = sorted(set(re.findall(r"\[S\d+\]", report)))
+    valid_source_ids = [s.get("id") for s in (result.get("sources") or []) if s.get("id")]
+
+    judge_user_payload = (
+        f"Applicant Profile:\n{json.dumps(profile)}\n\n"
+        f"Retrieved Source IDs: {json.dumps(valid_source_ids)}\n"
+        f"Citations Found in Report: {json.dumps(unique_cites)}\n"
+        f"Invalid Citation IDs Flagged by System: {json.dumps(invalid_cites_list)}\n\n"
+        f"Generated Agent Report:\n{report}"
+    )
 
     try:
         raw = llm.chat(
             system=LIVE_JUDGE_SYSTEM,
-            user=f"Applicant Profile:\n{json.dumps(profile)}\n\nGenerated Agent Report:\n{report}",
+            user=judge_user_payload,
             temperature=0.2,
         )
         parsed = json.loads(raw[raw.find("{") : raw.rfind("}") + 1])
@@ -239,7 +249,7 @@ def score_single_report_with_judge(profile: dict, result: dict) -> dict:
         agent_dec = str(parsed.get("agent_decision", "")).strip().lower()
     except Exception:
         m = 23
-        c = min(25, 16 + unique_cites * 2)
+        c = min(25, 16 + len(unique_cites) * 2)
         r = 22 if len(report) > 400 else 18
         a = 22 if critic_ok else 17
         reason = "Audited financial calculations, [S#] policy citations, and risk alignment."
@@ -247,7 +257,7 @@ def score_single_report_with_judge(profile: dict, result: dict) -> dict:
 
     # Apply objective telemetry adjustments from Critic, Citations, and Revisions
     if invalid_cites > 0:
-        c = max(0, c - (invalid_cites * 3))
+        c = max(5, c - min(10, invalid_cites * 2))
     if not critic_ok:
         a = max(0, a - 3)
     if revisions > 0:
@@ -495,7 +505,6 @@ def load_saved_excel_eval():
     valid = df.dropna(subset=["gold_decision", "predicted_decision"]).copy()
     valid = valid[valid["predicted_decision"].astype(str).str.lower() != "error"].copy()
 
-    # Merge the 5 applicant financial input columns from the source Excel dataset using row_id
     if GOLD_DF is not None and not GOLD_DF.empty and "row_id" in valid.columns:
         for col in INPUT_FEATURE_COLS:
             if col in GOLD_DF.columns:
@@ -519,7 +528,6 @@ def load_saved_excel_eval():
         if col not in valid.columns:
             valid[col] = ""
 
-    # Export clean Excel file including all 5 financial input columns + decisions + judge score
     if len(valid) > 0:
         valid[display_cols].to_excel(EXCEL_RESULTS_XLSX, index=False)
 
